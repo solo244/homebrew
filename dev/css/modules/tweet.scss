@@ -1,0 +1,61 @@
+.tweets{
+  position: fixed;
+  bottom: 0;
+  right: -350px;
+  top: 0;
+  width: 350px;
+  z-index: 51;
+
+  .feed{
+    height: 100%;
+    position: relative;
+    left: 0px;
+
+    iframe{
+      height: 100%;
+    }
+  }
+  .tweetfeed{
+    left: 0;
+  }
+
+  .twit{
+    border-radius: $circle;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 30px;
+    left: -90px;
+    cursor: pointer;
+    background: $white url("../images/twitter.svg") no-repeat;
+    background-size: 50px auto;
+    background-position: 0px 0px;
+
+    &:hover{
+      background-position: 0px -50px;
+    }
+  }
+}
+
+.tweets_active{
+  right: 0;
+
+  .twit{
+    left: 100px;
+  }
+}
+
+.tweets_overlay{
+  position: fixed;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 50;
+}
+
+.active_overlay{
+  bottom: 0%;
+}
