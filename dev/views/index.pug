@@ -1,9 +1,20 @@
 doctype html
 html
   head
-    title Homebrew
+    title Homebrew 5.0 - Solo's Workshop
     include /header.pug
   body.home
-    include /nav.pug
+    header.intro
+      a.logo(href="/")
+        img(src="/images/logo.png", alt="logo", width="40")
+      h2 Solo's Workshop
+      h1 D&D 5.0 - Homebrew
+
+    .container.divider
+      p Below you will find all custom content for my D&D 5.0 homebrew campaign(s). Some stats/rules/items/feats/... will be altered because they needed it or simply because it suited the needs of everyone better.
+
+    .container
+      include /nav.pug
+
 
     include /footer.pug
