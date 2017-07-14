@@ -1,0 +1,30 @@
+.pages {
+  header.intro {
+    position: relative;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: $_blue;
+
+    h1 {
+      max-width: none;
+      color: $primary;
+    }
+
+    h2 {
+      max-width: none;
+      color: $red;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin: 5px;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+  }
+}
