@@ -1,7 +1,31 @@
 // Feats
+.page-feats {
+  p {
+    margin-bottom: 20px;
+  }
+}
+
 .feats {
   .feat {
     text-align: left;
-    border-bottom: 1px solid $grey;
+    border: 1px solid $__grey;
+    background-color: $___grey;
+    padding: 0 30px 30px 30px;
+
+    h2, p {
+      max-width: none;
+    }
+
+    h2 {
+
+    }
+
+    p {
+
+    }
+
+    ul {
+      margin-left: 20px;
+    }
   }
 }
