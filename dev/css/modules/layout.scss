@@ -8,9 +8,11 @@
 .feats {
   .feat {
     text-align: left;
-    border: 1px solid $__grey;
-    background-color: $___grey;
+    border: 1px solid $_blue;
+    background-color: $_blue;
     padding: 0 30px 30px 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 
     h2, p {
       max-width: none;
@@ -26,6 +28,11 @@
 
     ul {
       margin-left: 20px;
+    }
+
+    &:hover {
+      border: 1px solid $primary;
+      background-color: $white;
     }
   }
 }
