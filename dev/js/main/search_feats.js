@@ -3,9 +3,12 @@
   /*
    * Vars
    */
-  var $body = $("html, body");
-  $tut_search.on("keyup", getResults);
-  $tut_empty.on("click", emptySearch);
+  var $body = $("html, body"),
+      $search_field = $body.find(""),
+      $search_empty = $body.find("");
+
+  $search_field.on("keyup", getResults);
+  $search_empty.on("click", emptySearch);
 
   /*
    *
