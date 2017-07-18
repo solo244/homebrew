@@ -4,8 +4,10 @@
    * Vars
    */
   var $body = $("html, body"),
-      $search_field = $body.find(""),
-      $search_empty = $body.find("");
+      $search = $body.find(".search-block"),
+      $search_field = $search.find(".search-field input"),
+      $search_empty = $search.find(".search-field .clear"),
+      $result_blocks = $body.find(".search-result .feat");
 
   $search_field.on("keyup", getResults);
   $search_empty.on("click", emptySearch);
@@ -17,22 +19,22 @@
     var $this = $(this).val().toLowerCase();
 
     if($this === ""){
-      $all_tutorials_blocks.removeClass("show_result");
+      $result_blocks.addClass("show-result");
     }
     else{
-      $all_tutorials_blocks.each(function(){
-        var content = $(this).find("h3").text().toLowerCase();
-        $(this).removeClass("show_result");
+      $result_blocks.each(function(){
+        var content = $(this).find("h2").text().toLowerCase();
+        $(this).removeClass("show-result");
         if(content.indexOf($this) >= 0){
-          $(this).addClass("show_result");
+          $(this).addClass("show-result");
         }
       });
     }
   }
 
   function emptySearch(){
-    $tut_search.val("");
-    $all_tutorials_blocks.removeClass("show_result");
+    $search_field.val("");
+    $result_blocks.addClass("show-result");
   }
 
 })(jQuery);

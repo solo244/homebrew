@@ -9,9 +9,13 @@
   .feat {
     text-align: left;
     border: 1px solid $_blue;
+    border-top: none;
+    border-bottom: none;
     background-color: $_blue;
-    padding: 0 30px 30px 30px;
-    margin-bottom: 20px;
+    padding: 0 30px 0px 30px;
+    max-height: 0;
+    overflow: hidden;
+    margin-bottom: 0px;
     border-radius: 5px;
 
     h2, p {
@@ -23,16 +27,32 @@
     }
 
     p {
-
+      margin-bottom: 0px;
     }
 
     ul {
       margin-left: 20px;
+      margin-bottom: 0px;
     }
 
     &:hover {
       border: 1px solid $primary;
       background-color: $white;
+    }
+
+    &.show-result {
+      border: 1px solid $_blue;
+      padding: 0 30px 0px 30px;
+      max-height: 600px;
+      margin-bottom: 20px;
+
+      ul, p {
+        margin-bottom: 20px;
+      }
+
+      &:hover {
+        border: 1px solid $primary;
+      }
     }
   }
 }
@@ -43,7 +63,7 @@
 }
 
 .weapons {
-  
+
 }
 
 // Armor

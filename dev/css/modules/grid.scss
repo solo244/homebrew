@@ -74,16 +74,16 @@
 
   .c1, .c2, .c3, .c4, .c5 {
     float: left;
-    line-height: 30px;
 
     p {
       border-bottom: 1px solid $__grey;
+      line-height: 30px;
     }
   }
 
-  .c1 { width: 30% }
+  .c1 { width: 31% }
   .c2 { width: 30% }
-  .c3 { width: 10% }
-  .c4 { width: 10% }
-  .c5 { width: 10% }
+  .c3 { width: 13% }
+  .c4 { width: 13% }
+  .c5 { width: 13% }
 }
