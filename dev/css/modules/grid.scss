@@ -1,17 +1,17 @@
-.grid{
-  .grid-item{
+.grid {
+  .grid-item {
     float: left;
     width: 33.33%;
 
-    @media screen and (max-width: 900px){
+    @media screen and (max-width: 900px) {
       width: 50%;
     }
 
-    @media screen and (max-width: 550px){
+    @media screen and (max-width: 550px) {
       width: 100%;
     }
 
-    .grid-c{
+    .grid-c {
       margin: 10px;
       padding: 30px 30px 20px 30px;
       border-radius: $corner;
@@ -24,12 +24,12 @@
       position: relative;
       overflow: hidden;
 
-      h3{
+      h3 {
         color: $blue;
         font-weight: normal;
       }
 
-      span{
+      span {
         color: $primary;
         text-transform: uppercase;
         letter-spacing: 3px;
@@ -41,20 +41,49 @@
         transform: translate(-50%, -50%);
       }
 
-      &:hover{
+      &:hover {
         background-color: $white;
         border: 1px solid $primary;
         box-shadow: 0 0 10px $_grey;
         transform: scale(1.025);
 
-        span{
+        span {
           top: 40px;
         }
 
-        .icon{
+        .icon {
           opacity: 0.3;
         }
       }
     }
   }
+}
+
+// Columns
+.cols {
+  text-align: left;
+
+  .submenu {
+    font-weight: bold;
+    border-bottom: 1px dotted $grey;
+    list-style-type: none;
+    color: $primary;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .c1, .c2, .c3, .c4, .c5 {
+    float: left;
+    line-height: 30px;
+
+    p {
+      border-bottom: 1px solid $__grey;
+    }
+  }
+
+  .c1 { width: 30% }
+  .c2 { width: 30% }
+  .c3 { width: 10% }
+  .c4 { width: 10% }
+  .c5 { width: 10% }
 }
