@@ -74,3 +74,38 @@
 .armor {
 
 }
+
+// Spells
+.page-spells {
+
+}
+
+.spells {
+  .spell, .submenu {
+    .c1 {
+      width: 29%;
+    }
+    .c2 {
+      width: 9%;
+    }
+    .c3 {
+      width: 15%;
+    }
+    .c4 {
+      width: 8%;
+    }
+    .c5 {
+      width: 13%;
+    }
+    .c6 {
+      width: 13%;
+    }
+    .c7 {
+      width: 13%;
+    }
+
+    .description {
+      display: none;
+    }
+  }
+}
