@@ -92,6 +92,7 @@
   .spell, .submenu {
     transition: none;
     cursor: pointer;
+    display: block;
 
     .c1 {
       width: 29%;
@@ -133,10 +134,10 @@
         display: block;
         margin-top: 10px;
       }
+    }
 
-      .classes {
-
-      }
+    &.hide-spell {
+      display: none;
     }
   }
 }
