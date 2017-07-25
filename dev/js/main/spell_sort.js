@@ -19,6 +19,32 @@
    *
    */
   function reSort(e){
+    var selected_c1 = [],
+        selected_c2 = [],
+        selected_c3 = [],
+        selected_c4 = [],
+        selected_c5 = [],
+        selected_c6 = [];
+
+    $sort_c1.find("input").each(function() {
+      var $this = $(this),
+          $text = $this.closest("li").text().trim();
+
+      console.log(selected_c1);
+
+      if($this.is(":checked")) {
+        if($text === "Cantrip") {
+          $text = "0";
+        } else {
+          $text = $text.replace("Level ", "");
+        }
+        selected_c1.push($text);
+      }
+      if(selected_c1.length === 0) {
+        selected_c1 = ["0", "1", "2", "3", "4", "5", "6"];
+      }
+    });
+
     $spells.find(".spell").each(function() {
       var $this = $(this),
           $level = $this.find(".c2").text(),
@@ -26,34 +52,14 @@
           $ritual = $this.find(".c4").text(),
           $time = $this.find(".c5").text(),
           $components = $this.find(".c6").text(),
-          $concentration = $this.find(".c7").text(),
-          selected_c1 = [],
-          selected_c2 = [],
-          selected_c3 = [],
-          selected_c4 = [],
-          selected_c5 = [],
-          selected_c6 = [];
+          $concentration = $this.find(".c7").text();
 
-      $sort_c1.find("input").each(function() {
-        var $this = $(this),
-            $text = $this.closest("li").text();
-
-        console.log($this);
-        console.log($text);
-
-        if($this.checked) {
-          selected_c1.push($text);
-          console.log(selected_c1);
-        }
-      });
-
-
-      /*var categoriesPresent = ['word', 'word', 'specialword', 'word'];
-      var foundPresent = categoriesPresent.includes('specialword');
-
-      console.log(foundPresent, foundNotPresent); // true false*/
-
-
+      var spellsMatch = selected_c1.includes($level);
+      if(spellsMatch) {
+        $this.show();
+      } else {
+        $this.hide();
+      }
     });
   }
 
