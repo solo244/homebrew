@@ -15,231 +15,281 @@ html
       p The Weapons table shows the most common weapons used in the worlds of D&D, their price and weight, the damage they deal when they hit, and any special properties they possess. Every weapon is classified as either melee or ranged. A melee weapon is used to attack a target within 5 feet of you, whereas a ranged weapon is used to attack a target at a distance.
 
     .container
-      .search-tut
-      .search-block
-        input(placeholder="Search for a topic")
-        .search
-          i(class="icon dripicons-search")
-        .clear
-          i(class="icon dripicons-cross")
+      include /search.pug
       .weapons.cols
-        .weapon-melee
-          h2.text-center Melee weapons
-          ul.submenu
-            li.c1 Name
-            li.c2 Type
-            li.c3 Damage
-            li.c4 Money
-            li.c5 Range
-          .c1
-            p Club
-            p Dagger
-            p Javelin
-            p Mace
-            p Sickle
-            p Spear
-            p Greatclub
-            p Morning Star
-            p Quarterstaff
-            p Scythe
-            p BattleAxe
-            p Flail
-            p Handaxe
-            p Longsword
-            p Scimitar
-            p Short Sword
-            p Throw Hammer
-            p Warhammer
-            p War Pick
-            p Falchion
-            p Glaive
-            p Greataxe
-            p Greatsword
-            p Halberd
-            p Heavy Flail
-            p Longspear
-            p Maul
-            p Bastard Sword
-            p Katar
-            p Rapier
-            p Spiked Chain
-            p Any
-          .c2
-            p Simple 1h
-            p Simple 1h
-            p Simple 1h
-            p Simple 1h
-            p Simple 1h
-            p Simple 2h
-            p Simple 2h
-            p Simple 2h
-            p Simple 2h
-            p Simple 1h
-            p Simple 1h
-            p Simple 1h
-            p Simple 1h
-            p Simple 1h
-            p Simple 1h
-            p Simple 1h
-            p Simple 1h
-            p Simple 1h
-            p Simple 2h
-            p Simple 2h
-            p Simple 2h
-            p Simple 2h
-            p Simple 2h
-            p Simple 2h
-            p Simple 2h
-            p Simple 2h
-            p Simple 1h
-            p Simple 1h
-            p Simple 1h
-            p Simple 2h
-            p Improvised
-            p Simple 1h
-          .c3
-            p 1d4
-            p 1d6
-            p 1d8
-            p 1d6
-            p 1d8
-            p 2d4
-            p 1d10
-            p 1d8
-            p 2d4
-            p 1d10
-            p 1d10
-            p 1d6
-            p 1d8
-            p 1d8
-            p 1d6
-            p 1d6
-            p 1d10
-            p 1d8
-            p 2d4
-            p 2d4
-            p 1d12
-            p 1d10
-            p 1d10
-            p 2d6
-            p 1d10
-            p 2d6
-            p 1d10
-            p 1d6
-            p 1d8
-            p 2d4
-            p 1d6
-            p 1d2
-          .c4
-            p 1 gp
-            p 1 gp
-            p 5 gp
-            p 5 gp
-            p 2 gp
-            p 5 gp
-            p 1 gp
-            p 10 gp
-            p 5 gp
-            p 5 gp
-            p 15 gp
-            p 10 gp
-            p 5 gp
-            p 15 gp
-            p 10 gp
-            p 10 gp
-            p 5 gp
-            p 15 gp
-            p 15 gp
-            p 25 gp
-            p 25 gp
-            p 30 gp
-            p 30 gp
-            p 25 gp
-            p 25 gp
-            p 10 gp
-            p 30 gp
-            p 30 gp
-            p 3 gp
-            p 25 gp
-            p 30 gp
-            p -
-          .c5
-            p -
-            p -
-            p 5/10
-            p 10/20
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p 5/10
-            p -
-            p -
-            p -
-            p 5/10
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p 5/10
+        h2.text-center Melee weapons
+        ul.submenu
+          li.c1 Name
+          li.c2 Type
+          li.c3 Damage
+          li.c4 Money
+          li.c5 Range
+        .weapon-melee.show-result.seRe
+          .c1.searchable Club
+          .c2 Simple 1h
+          .c3 1d4
+          .c4 1gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Dagger
+          .c2 Simple 1h
+          .c3 1d4
+          .c4 1gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Javelin
+          .c2 Simple 1h
+          .c3 1d6
+          .c4 5gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Mace
+          .c2 Simple 1h
+          .c3 1d6
+          .c4 5gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Sickle
+          .c2 Simple 1h
+          .c3 1d4
+          .c4 2gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Spear
+          .c2 Simple 2h
+          .c3 1d6
+          .c4 5gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Greatclub
+          .c2 Simple 2h
+          .c3 1d8
+          .c4 1gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Morningstar
+          .c2 Martial 1h
+          .c3 1d8
+          .c4 10gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Quarterstaff
+          .c2 Simple 2h
+          .c3 1d6
+          .c4 5gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Scythe
+          .c2 Martial 2h
+          .c3 1d10
+          .c4 5gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Battleaxe
+          .c2 Martial 1h
+          .c3 1d8
+          .c4 15gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Flail
+          .c2 Martial 1h
+          .c3 1d8
+          .c4 10gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Handaxe
+          .c2 Simple 1h
+          .c3 1d6
+          .c4 5gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Longsword
+          .c2 Martial 1h
+          .c3 1d8
+          .c4 15gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Scimitar
+          .c2 Martial 1h
+          .c3 1d6
+          .c4 10gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Shortsword
+          .c2 Martial 1h
+          .c3 1d6
+          .c4 10gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Throw Hammer
+          .c2 Simple 1h
+          .c3 1d4
+          .c4 5gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Warhammer
+          .c2 Martial 2h
+          .c3 1d8
+          .c4 15gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable War Pick
+          .c2 Martial 1h
+          .c3 1d8
+          .c4 15gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Falchion
+          .c2 Martial 1h
+          .c3 1d8
+          .c4 25gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Glaive
+          .c2 Martial 2h
+          .c3 1d10
+          .c4 25gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Greataxe
+          .c2 Martial 2h
+          .c3 1d12
+          .c4 30gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Greatsword
+          .c2 Martial 2h
+          .c3 2d6
+          .c4 30gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Halberd
+          .c2 Martial 2h
+          .c3 1d10
+          .c4 25gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Lance
+          .c2 Martial 1h
+          .c3 1d12
+          .c4 15gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Trident
+          .c2 Martial 1h
+          .c3 1d6
+          .c4 5gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Whip
+          .c2 Martial 1h
+          .c3 1d4
+          .c4 5gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Heavy Flail
+          .c2 Martial 2h
+          .c3 1d10
+          .c4 25gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Maul
+          .c2 Martial 2h
+          .c3 2d6
+          .c4 30gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Bastard Sword
+          .c2 Martial 2h
+          .c3 1d10
+          .c4 30gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Katar
+          .c2 Martial 1h
+          .c3 1d6
+          .c4 3gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Rapier
+          .c2 Martial 1h
+          .c3 1d4
+          .c4 25gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Spiked Chain
+          .c2 Simple 1h
+          .c3 1d4
+          .c4 30gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Any
+          .c2 Simple 1h
+          .c3 -
+          .c4 -
+          .c5 -
         .divider.clear
-        .weapon-ranged
-          h2.text-center Ranged weapons
-          ul.submenu
-            li.c1 Name
-            li.c2 Type
-            li.c3 Damage
-            li.c4 Money
-            li.c5 Range
-          .c1
-            p Hand Crossbow
-            p Sling
-            p Crossbow
-            p Longbow
-            p Shortbow
-            p Shuriken
-          .c2
-            p Simple 1h
-            p Simple 1h
-            p Simple 2h
-            p Simple 2h
-            p Simple 2h
-            p Simple 1h
-          .c3
-            p 1d6
-            p 1d6
-            p 1d8
-            p 1d10
-            p 1d8
-            p 1d4
-          .c4
-            p 25 gp
-            p 1 gp
-            p 25 gp
-            p 30 gp
-            p 25 gp
-            p 1 gp
-          .c5
-            p 10/20
-            p 10/20
-            p 15/30
-            p 20/60
-            p 15/30
-            p 6/12
+        h2.text-center Ranged weapons
+        ul.submenu
+          li.c1.searchable Name
+          li.c2 Type
+          li.c3 Damage
+          li.c4 Money
+          li.c5 Range
+        .weapon-ranged.show-result.seRe
+          .c1.searchable Hand Crossbow
+          .c2 Simple 1h
+          .c3 1d6
+          .c4 25gp
+          .c5 10/20
+        .weapon-ranged.show-result.seRe
+          .c1.searchable Dart
+          .c2 Simple 1h
+          .c3 1d4
+          .c4 5sp
+          .c5 10/20
+        .weapon-ranged.show-result.seRe
+          .c1.searchable Shortbow
+          .c2 Simple 2h
+          .c3 1d6
+          .c4 25gp
+          .c5 15/60
+        .weapon-ranged.show-result.seRe
+          .c1.searchable Sling
+          .c2 Simple 1h
+          .c3 1d4
+          .c4 1gp
+          .c5 10/20
+        .weapon-ranged.show-result.seRe
+          .c1.searchable Blowgun
+          .c2 Martial 1h
+          .c3 1
+          .c4 10gp
+          .c5 5/15
+        .weapon-ranged.show-result.seRe
+          .c1.searchable Crossbow
+          .c2 Martial 2h
+          .c3 1d10
+          .c4 50gp
+          .c5 30/60
+        .weapon-ranged.show-result.seRe
+          .c1.searchable Longbow
+          .c2 Martial 2h
+          .c3 1d8
+          .c4 50gp
+          .c5 20/80
+        .weapon-ranged.show-result.seRe
+          .c1.searchable Net
+          .c2 Martial 1h
+          .c3 -
+          .c4 1gp
+          .c5 1/5
+        .weapon-ranged.show-result.seRe
+          .c1.searchable Shuriken
+          .c2 Martial
+          .c3 1d4
+          .c4 1gp
+          .c5 3/12
         .divider.clear
 
     include /footer.pug

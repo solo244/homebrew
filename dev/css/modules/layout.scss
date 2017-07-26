@@ -69,7 +69,13 @@
 }
 
 .weapons {
+  .weapon-melee {
+    margin-bottom: 10px;
+  }
 
+  .weapon-ranged {
+    margin-bottom: 10px;
+  }
 }
 
 // Armor
@@ -120,6 +126,12 @@
       display: none;
     }
 
+    &:hover {
+      .c1, .c2, .c3, .c4, .c5, .c6, .c7 {
+        color: $blue;
+      }
+    }
+
     &.active {
       padding: 20px;
       margin: 0 -20px;
@@ -129,6 +141,10 @@
       clear: both;
       position: relative;
       top: 5px;
+
+      .c1, .c2, .c3, .c4, .c5, .c6, .c7 {
+        color: $grey_;
+      }
 
       .description, .classes {
         display: block;
