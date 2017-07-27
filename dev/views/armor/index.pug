@@ -14,221 +14,326 @@ html
       p D&D worlds are a vast tapestry made up of many different cultures, each with its own technology level. For this reason, adventurers have access to a variety of arm or types, ranging from leather armor to chain mail to costly plate armor, with several other kinds of arm or in between. The Armor table collects the most commonly available types of armor found in the game and separates them into three categories: light armor, medium armor, and heavy armor. Many warriors supplement their armor with a shield.
 
     .container
-      .search-tut
-      .search-block
-        input(placeholder="Search for a topic")
-        .search
-          i(class="icon dripicons-search")
-        .clear
-          i(class="icon dripicons-cross")
-      .armors.cols
-        .armor
-          ul.submenu
-            li.c1 Name
-            li.c2 Type
-            li.c3 AC
-            li.c4 Money
-            li.c5 Negafier
-          .c1
-            p Cloth
-            p Cloth
-            p Cloth
-            p Cloth
-            p Cloth
-            p Cloth
-            p Leather
-            p Leather
-            p Leather
-            p Leather
-            p Leather
-            p Leather
-            p Hide
-            p Hide
-            p Hide
-            p Hide
-            p Hide
-            p Hide
-            p Chainmail
-            p Chainmail
-            p Chainmail
-            p Chainmail
-            p Chainmail
-            p Chainmail
-            p Scale
-            p Scale
-            p Scale
-            p Scale
-            p Scale
-            p Scale
-            p Plate
-            p Plate
-            p Plate
-            p Plate
-            p Shield
-            p Shield
-            p Shield
-            p Shield
-            p Shield
-          .c2
-            p Basic
-            p Feyweave
-            p Padded
-            p Studded
-            p Starweave
-            p Banded
-            p Basic
-            p Feyweave
-            p Padded
-            p Studded
-            p Starweave
-            p Banded
-            p Basic
-            p Padded
-            p Studded
-            p Darkhide
-            p Elderhide
-            p Splint
-            p Basic
-            p Padded
-            p Studded
-            p Banded
-            p Forgemail
-            p Spiritmail
-            p Basic
-            p Padded
-            p Studded
-            p Banded
-            p Wyrmscale
-            p Elderscale
-            p Basic
-            p Holy
-            p Warplate
-            p Godplate
-            p Small Wooden
-            p Big Wooden
-            p Small Metal
-            p Big Metal
-            p Heavy Metal
-          .c3
-            p -
-            p +1
-            p +1
-            p +2
-            p +2
-            p +3
-            p +2
-            p +3
-            p +3
-            p +4
-            p +4
-            p +5
-            p +3
-            p +4
-            p +5
-            p +4
-            p +5
-            p +6
-            p +6
-            p +7
-            p +8
-            p +9
-            p +9
-            p +12
-            p +7
-            p +8
-            p +9
-            p +10
-            p +10
-            p +13
-            p +9
-            p +11
-            p +12
-            p +15
-            p +1
-            p +2
-            p +1
-            p +2
-            p +3
-          .c4
-            p 1
-            p 125
-            p 130
-            p 300
-            p 300
-            p 500
-            p 25
-            p 125
-            p 130
-            p 250
-            p 300
-            p 500
-            p 30
-            p 250
-            p 300
-            p 300
-            p 550
-            p 700
-            p 40
-            p 400
-            p 500
-            p 500
-            p 800
-            p 1500
-            p 45
-            p 600
-            p 750
-            p 750
-            p 900
-            p 1800
-            p 50
-            p 1000
-            p 1200
-            p 2000
-            p 5
-            p 10
-            p 12
-            p 20
-            p 50
-          .c5
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p -
-            p 1
-            p 1
-            p 1
-            p 1
-            p 1
-            p 1
-            p 2
-            p 2
-            p 2
-            p 2
-            p 2
-            p 2
-            p 1
-            p 1
-            p 1
-            p 1
-            p 1
-            p 1
-            p 3
-            p 3
-            p 3
-            p 4
-            p -
-            p -
-            p 1
-            p 2
-            p 3
+      include /search.pug
+      .armors.cols.search-result
+        ul.submenu
+          li.c1 Name
+          li.c2 Type
+          li.c3 AC
+          li.c4 Money
+          li.c5 Negafier
+        .armor.show-result.seRe
+          .c1 Cloth
+          .c2.searchable
+            | Basic
+            span Cloth
+          .c3 -
+          .c4 1
+          .c5 -
+        .armor.show-result.seRe
+          .c1 Cloth
+          .c2.searchable
+            | Feyweave
+            span Cloth
+          .c3 +1
+          .c4 125
+          .c5 -
+        .armor.show-result.seRe
+          .c1 Cloth
+          .c2.searchable
+            | Padded
+            span Cloth
+          .c3 +1
+          .c4 130
+          .c5 -
+        .armor.show-result.seRe
+          .c1 Cloth
+          .c2.searchable
+            | Studded
+            span Cloth
+          .c3 +2
+          .c4 300
+          .c5 -
+        .armor.show-result.seRe
+          .c1 Cloth
+          .c2.searchable
+            | Starweave
+            span Cloth
+          .c3 +2
+          .c4 300
+          .c5 -
+        .armor.show-result.seRe
+          .c1 Cloth
+          .c2.searchable
+            | Banded
+            span Cloth
+          .c3 +3
+          .c4 500
+          .c5 -
+        .armor.show-result.seRe
+          .c1 Leather
+          .c2.searchable
+            | Basic
+            span Leather
+          .c3 +2
+          .c4 25
+          .c5 -
+        .armor.show-result.seRe
+          .c1 Leather
+          .c2.searchable
+            | Feyweave
+            span Leather
+          .c3 +3
+          .c4 125
+          .c5 -
+        .armor.show-result.seRe
+          .c1 Leather
+          .c2.searchable
+            | Padded
+            span Leather
+          .c3 +3
+          .c4 130
+          .c5 -
+        .armor.show-result.seRe
+          .c1 Leather
+          .c2.searchable
+            | Studded
+            span Leather
+          .c3 +4
+          .c4 250
+          .c5 -
+        .armor.show-result.seRe
+          .c1 Leather
+          .c2.searchable
+            | Starweave
+            span Leather
+          .c3 +4
+          .c4 300
+          .c5 -
+        .armor.show-result.seRe
+          .c1 Leather
+          .c2.searchable
+            | Banded
+            span Leather
+          .c3 +5
+          .c4 500
+          .c5 -
+        .armor.show-result.seRe
+          .c1 Hide
+          .c2.searchable
+            | Basic
+            span Hide
+          .c3 +3
+          .c4 30
+          .c5 1
+        .armor.show-result.seRe
+          .c1 Hide
+          .c2.searchable
+            | Padded
+            span Hide
+          .c3 +4
+          .c4 250
+          .c5 1
+        .armor.show-result.seRe
+          .c1 Hide
+          .c2.searchable
+            | Studded
+            span Hide
+          .c3 +5
+          .c4 300
+          .c5 1
+        .armor.show-result.seRe
+          .c1 Hide
+          .c2.searchable
+            | Darkhide
+            span Hide
+          .c3 +4
+          .c4 300
+          .c5 1
+        .armor.show-result.seRe
+          .c1 Hide
+          .c2.searchable
+            | Elderhide
+            span Hide
+          .c3 +5
+          .c4 550
+          .c5 1
+        .armor.show-result.seRe
+          .c1 Hide
+          .c2.searchable
+            | Splint
+            span Hide
+          .c3 +6
+          .c4 700
+          .c5 1
+        .armor.show-result.seRe
+          .c1 Chainmail
+          .c2.searchable
+            | Basic
+            span Chainmail
+          .c3 +6
+          .c4 40
+          .c5 2
+        .armor.show-result.seRe
+          .c1 Chainmail
+          .c2.searchable
+            | Padded
+            span Chainmail
+          .c3 +7
+          .c4 400
+          .c5 2
+        .armor.show-result.seRe
+          .c1 Chainmail
+          .c2.searchable
+            | Studded
+            span Chainmail
+          .c3 +8
+          .c4 500
+          .c5 2
+        .armor.show-result.seRe
+          .c1 Chainmail
+          .c2.searchable
+            | Banded
+            span Chainmail
+          .c3 +9
+          .c4 500
+          .c5 2
+        .armor.show-result.seRe
+          .c1 Chainmail
+          .c2.searchable
+            | Forgemail
+            span Chainmail
+          .c3 +9
+          .c4 800
+          .c5 2
+        .armor.show-result.seRe
+          .c1 Chainmail
+          .c2.searchable
+            | Spiritmail
+            span Chainmail
+          .c3 +12
+          .c4 1500
+          .c5 2
+        .armor.show-result.seRe
+          .c1 Scale
+          .c2.searchable
+            | Basic
+            span Scale
+          .c3 +7
+          .c4 45
+          .c5 1
+        .armor.show-result.seRe
+          .c1 Scale
+          .c2.searchable
+            | Padded
+            span Scale
+          .c3 +8
+          .c4 600
+          .c5 -
+        .armor.show-result.seRe
+          .c1 Scale
+          .c2.searchable
+            | Studded
+            span Scale
+          .c3 +9
+          .c4 750
+          .c5 1
+        .armor.show-result.seRe
+          .c1 Scale
+          .c2.searchable
+            | Banded
+            span Scale
+          .c3 +10
+          .c4 750
+          .c5 1
+        .armor.show-result.seRe
+          .c1 Scale
+          .c2.searchable
+            | Wyrmscale
+            span Scale
+          .c3 +10
+          .c4 900
+          .c5 1
+        .armor.show-result.seRe
+          .c1 Scale
+          .c2.searchable
+            | Elderscale
+            span Scale
+          .c3 +13
+          .c4 1800
+          .c5 1
+        .armor.show-result.seRe
+          .c1 Plate
+          .c2.searchable
+            | Basic
+            span Plate
+          .c3 +9
+          .c4 50
+          .c5 3
+        .armor.show-result.seRe
+          .c1 Plate
+          .c2.searchable
+            | Holy
+            span Plate
+          .c3 +11
+          .c4 1000
+          .c5 3
+        .armor.show-result.seRe
+          .c1 Plate
+          .c2.searchable
+            | Warplate
+            span Plate
+          .c3 +12
+          .c4 1200
+          .c5 3
+        .armor.show-result.seRe
+          .c1 Plate
+          .c2.searchable
+            | Godplate
+            span Plate
+          .c3 +15
+          .c4 2000
+          .c5 4
+        .armor.show-result.seRe
+          .c1 Shield
+          .c2.searchable
+            | Small Wooden
+            span Shield
+          .c3 +1
+          .c4 5
+          .c5 -
+        .armor.show-result.seRe
+          .c1 Shield
+          .c2.searchable
+            | Big Wooden
+            span Shield
+          .c3 +2
+          .c4 10
+          .c5 -
+        .armor.show-result.seRe
+          .c1 Shield
+          .c2.searchable
+            | Small Metal
+            span Shield
+          .c3 +1
+          .c4 12
+          .c5 1
+        .armor.show-result.seRe
+          .c1 Shield
+          .c2.searchable
+            | Big Metal
+            span Shield
+          .c3 +2
+          .c4 20
+          .c5 2
+        .armor.show-result.seRe
+          .c1 Shield
+          .c2.searchable
+            | Heavy Metal
+            span Shield
+          .c3 +3
+          .c4 50
+          .c5 3
         .divider.clear
 
     include /footer.pug

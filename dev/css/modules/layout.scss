@@ -28,10 +28,6 @@
       max-width: none;
     }
 
-    h2 {
-
-    }
-
     p {
       margin-bottom: 0px;
     }
@@ -95,8 +91,22 @@
 
 }
 
-.armor {
+.armors {
+  .armor {
+    margin-bottom: 5px;
+    @include clearfix();
+    display: none;
 
+    &.show-result {
+      display: block;
+    }
+
+    .searchable {
+      span {
+        display: none;
+      }
+    }
+  }
 }
 
 // Spells
