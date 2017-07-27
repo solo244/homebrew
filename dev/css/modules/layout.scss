@@ -116,6 +116,9 @@
 
 .gods {
   .god, .submenu {
+    margin-bottom: 5px;
+    @include clearfix();
+    
     .c1 {
       width: 36%;
     }
