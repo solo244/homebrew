@@ -16,15 +16,14 @@
    *
    */
   function getResults(e){
-    var $this = $(this).val().toLowerCase();
-    console.log($this);
+    var $this = $(this).val().toLowerCase().replace(" ", "");
 
     if($this === ""){
       $result_blocks.addClass("show-result");
     }
     else{
       $result_blocks.each(function(){
-        var content = $(this).find(".searchable").text().toLowerCase();
+        var content = $(this).find(".searchable").text().toLowerCase().replace(" ", "");
         $(this).removeClass("show-result");
         if(content.indexOf($this) >= 0){
           $(this).addClass("show-result");
