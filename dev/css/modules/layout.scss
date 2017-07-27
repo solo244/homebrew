@@ -70,11 +70,23 @@
 
 .weapons {
   .weapon-melee {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    @include clearfix();
+    display: none;
+
+    &.show-result {
+      display: block;
+    }
   }
 
   .weapon-ranged {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    @include clearfix();
+    display: none;
+
+    &.show-result {
+      display: block;
+    }
   }
 }
 
