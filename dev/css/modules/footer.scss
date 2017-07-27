@@ -1,3 +1,48 @@
 .footer {
-  
+  background-color: $primary;
+  padding: 50px 0;
+
+  .bottom {
+    opacity: 0.1;
+  }
+
+  .link-list {
+    padding-top: 40px;
+
+    .link {
+      position: relative;
+      width: 14%;
+      display: block;
+      float: left;
+      margin-bottom: 20px;
+
+      .icon {
+        opacity: 0.3;
+        position: relative;
+        top: 0;
+      }
+
+      h3 {
+        color: $white;
+        text-align: center;
+        font-weight: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $secondary;
+        font-size: 11px;
+      }
+
+      a:hover {
+        .icon {
+          transform: scale(1.25);
+          top: -8px;
+          opacity: 0.5;
+        }
+
+        h3 {
+          color: $white;
+        }
+      }
+    }
+  }
 }
