@@ -344,11 +344,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Bard, Cleric",
+    duration: "Concentration, up to 1 minute",
+    range: "30 feet",
+    description: "(A drop of blood) - Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw. When you cast this spell using a spelslot of 2nd level or higher, you can target one aditional creature for each slot level above 1st."
   },
   {
     name: "Banishing Smite",
@@ -357,11 +357,11 @@ var spell_data = [
     casting_time: "1 Bonus",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V",
+    class: "Paladin",
+    duration: "Concentration, up to 1 minute",
+    range: "Self",
+    description: "The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra 5d10 force damage to the target. Additionally, if this attack reduces the target to 50 hit points of fewer, you banish it. If the target is native to a different plane of existence than the on you’re on, the target disappears, returning to its home plane. If the target is native to the plane you’re on, the creature vanishes into a harmless demiplane. While there, the target is incapacitated. It remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied."
   },
   {
     name: "Banishment",
@@ -370,11 +370,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Cleric, Paladin, Sorcerer, Warlock, Wizard",
+    duration: "Concentration, up to 1 minute",
+    range: "60 feet",
+    description: "(an item distasteful to the target) - You attempt to send one creature that you can see within range to another place of existence. The target must succeed on a Charisma saving throw or be banished. If the target is native to the plane of existence you’re on, you banish the target to a harmless demiplane. While there, the target is incapacitated. The target remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. If the target is native to a different plane of existence that the one you’re on, the target is banished with a faint popping noise, returning to its home plane. If the spell ends before 1 minute has passed, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. Otherwise, the target doesn’t return. When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th."
   },
   {
     name: "Barkskin",
@@ -383,11 +383,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Druid, Ranger",
+    duration: "Concentration, up to 1 hour",
+    range: "Touch",
+    description: "(A handful of oak bark) - You touch a willing creature. Until the spellends, the target’s skin has a rough, bark-like appearance, and the target’s AC can’t be less than 16, regardless of what kind of armor it is wearing."
   },
   {
     name: "Beacon of Hope",
@@ -396,11 +396,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S",
+    class: "Cleric",
+    duration: "Concentration, up to 1 minute",
+    range: "30 feet",
+    description: "This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing."
   },
   {
     name: "Beast Bond",
@@ -409,11 +409,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Druid, Ranger",
+    duration: "Concentration, up to 10 minutes",
+    range: "Touch",
+    description: "(A bit of fur wrapped in a cloth) - You establish a telepathic link with one beast you touch that is friendly to you or charmed by you. The spell fails if the beast’s Intelligence is 4 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within 5 feet of you that you can see."
   },
   {
     name: "Beast Sense (Ritual)",
