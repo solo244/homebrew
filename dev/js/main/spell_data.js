@@ -617,11 +617,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S",
+    class: "Druid",
+    duration: "Concentration, up to 10 minutes",
+    range: "120 feet",
+    description: "A storm cloud appears in the shape of a cylinder that is 10 feet tall with a 60-foot radius, centered on a point you can see 100 feet directly above you. The spell fails if you can’t see a point in the air where the storm cloud could appear (for example, if you are in a room that can’t accommodate the cloud). When you cast the spell, choose a point you can see within range. A bolt of lightning flashes down from the cloud to that point. Each creature within 5 feet of that point must make a Dexterity saving throw. A creature takes 3d10 lightning damage on a failed save, or half as much damage on a successful one. On each of your turns until the spell ends, you can use your action to call down lightning in this way again, targeting the same point or a different one. If you are outdoors in stormy conditions when you cast this spell, the spell gives you control over the existing storm instead of creating a new one. Under such conditions, the spell’s damage increases by 1d10. When you cast this spell using a spell slot of 4th or higher level, the damage increases by 1d10 for each slot level above 3rd."
   },
   {
     name: "Calm Emotions",
@@ -630,11 +630,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S",
+    class: "Bard, Cleric",
+    duration: "Concentration, up to 1 minute",
+    range: "60 feet",
+    description: "You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a Charisma saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects. You can suppress any effect causing a target to be charmed or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime. Alternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the DM rules otherwise."
   },
   {
     name: "Catapult",
@@ -643,11 +643,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "S",
+    class: "Sorcerer, Wizard",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "150 feet",
+    description: "Choose one object weighing 1 to 5 pounds within range that isn’t being worn or carried. The object flies in a straight line up to 90 feet in a direction you choose before falling to the ground, stopping early if it impacts against a solid surface. If the object would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the object strikes the target and stops moving. In either case, both the object and the creature or solid surface take 3d8 bludgeoning damage. When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by 1d8, for each slot level above 1st."
   },
   {
     name: "Chain Lightning",
@@ -656,11 +656,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V, S, M",
+    class: "Sorcerer, Wizard",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "150 feet",
+    description: "(a bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins) - You create a bolt of lightning that arcs toward a target of your choice that you can see within range. Three bolts then leap from that target to as many as three other targets, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts. A target must make a Dexterity saving throw. The target takes 10d8 lightning damage on a failed save, or half as much on a successful one. When you cast this spell using a spell slot of 7th level or higher, one additional bolt leaps from the first target to another target for each slot level above 6th."
   },
   {
     name: "Charm Person",
@@ -669,11 +669,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S",
+    class: "Bard, Druid, Sorcerer, Warlock, Wizard",
+    duration: "1 Hour",
+    range: "30 feet",
+    description: "You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it.The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them."
   },
   {
     name: "Chill Touch",
