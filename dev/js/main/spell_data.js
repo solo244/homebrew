@@ -708,11 +708,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V, S, M",
+    class: "Sorcerer, Warlock, Wizard",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "150 feet",
+    description: "(the powder of a crushed black pearl worth at least 500 gp) - A sphere of negative energy ripples out in a 60-foot-radius sphere from a point within range. Each creature in that area must make a Constitution saving throw. A target takes 8d6 necrotic damage on a failed save, or half as much damage on a successful one. When you cast this spell using a spell slot of 7th level or higher, the damage increases by 2d6 for each slot level above 6th."
   },
   {
     name: "Circle of Power",
