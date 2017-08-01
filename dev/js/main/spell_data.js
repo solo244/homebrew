@@ -1189,11 +1189,11 @@ var spell_data = [
     casting_time: "1 Minute",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Sorcerer, Wizard",
+    duration: "Special",
+    range: "30 feet",
+    description: "(a tiny piece of matter of the same type of the item you plan to create) - You pull wisps of shadow material from the Shadowfell to create a nonliving object of vegetable matter within range: soft goods, rope, wood, or something similar. You can also use this spell to create mineral objects such as stone, crystal, or metal. The object created must be no larger than a 5-foot cube, and the object must be of a form and material that you have seen before. The duration depends on the object’s material. If the object is composed of multiple materials, use the shortest duration. Material — Duration: Vegetable matter — 1 day, Stone/crystal — 12 hours, Precious metals — 1 hour, Gems — 10 minutes, Adamantine/Mithral — 1 minute. Using any material created by this spell as another spell’s material component causes that spell to fail. When you cast this spell using a spell slot of 6th level or higher, the cube increases by 5 feet for each slot level above 5th."
   },
   {
     name: "Crown of Madness",
