@@ -826,7 +826,7 @@ var spell_data = [
     ritual: "Yes",
     concentration: "-",
     components: "-",
-    class: "-",
+    class: "Druid, Ranger",
     duration: "Instantaneous",
     range: "0 feet",
     description: "Lorem ipsum"
@@ -851,11 +851,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "Yes",
     concentration: "-",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: " V, S, M",
+    class: "Bard, Sorcerer, Warlock, Wizard",
+    duration: "1 Hour",
+    range: "Self",
+    description: "(a pinch of soot and salt) - For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface of which the words are written. It takes about 1 minute to read one page of text. This spell doesn’t decode secret messages in a text or glyph, such as an arcane sigil, that isn’t part of a written language."
   },
   {
     name: "Compulsion",
