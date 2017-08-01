@@ -1046,11 +1046,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Cleric, Wizard",
+    duration: "Until dispelled",
+    range: "Touch",
+    description: "(ruby dust worth 50 gp, which the spell consumes) - A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn’t use oxygen. A continual flame can be covered or hidden but not smothered or quenched."
   },
   {
     name: "Control Flames",
