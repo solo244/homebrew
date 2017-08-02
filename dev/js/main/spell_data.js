@@ -1618,11 +1618,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V",
+    class: "Druid, Sorcerer, Warlock, Wizard",
+    duration: "Concentration, up to 1 minute",
+    range: "300 feet",
+    description: "Choose one creature you can see within range. Yellow strips of magical energy loop around the creature. The target must succeed on a Strength saving throw or its flying speed (if any) is reduced to 0 feet for the spell’s duration. An airborne creature affected by this spell descends at 60 feet per round until it reaches the ground or the spell ends."
   },
   {
     name: "Earthquake",
