@@ -2164,11 +2164,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "S, M",
+    class: "Bard, Sorcerer, Warlock, Wizard",
+    duration: "Concentration, up to 1 minute",
+    range: "Self",
+    description: "(a small amount of makeup applied to the face as this spell is cast) - For the duration, you have advantage on all Charisma checks directed at one creature of your choice that isn’t hostile toward you. When the spell ends, the creature realizes that you used magic to influence its mood and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM’s discretion), depending on the nature of your interaction with it."
   },
   {
     name: "Frostbite",
