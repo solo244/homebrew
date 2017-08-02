@@ -2138,11 +2138,11 @@ var spell_data = [
     casting_time: "1 Minute",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Bard, Druid, Warlock, Wizard",
+    duration: "8 Hours",
+    range: "Touch",
+    description: "(a hummingbird feather) - You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target can’t be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration. This spell immediately ends if you cast it again before its duration ends."
   },
   {
     name: "Freedom of Movement",
