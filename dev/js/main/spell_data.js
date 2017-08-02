@@ -1787,11 +1787,11 @@ var spell_data = [
     casting_time: "1 Bonus",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S",
+    class: "Sorcerer, Warlock, Wizard",
+    duration: "Concentration, up to 10 minutes",
+    range: "Self",
+    description: "This spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action."
   },
   {
     name: "Eyebite",
