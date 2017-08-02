@@ -1839,11 +1839,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Sorcerer, Wizard",
+    duration: "1 Hour",
+    range: "Self",
+    description: "(a small amount of alcohol or distilled spirits) - Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 temporary hit points for the duration. When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st."
   },
   {
     name: "Fear",
