@@ -2099,11 +2099,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S",
+    class: "Druid, Ranger, Sorcerer, Wizard",
+    duration: "Concentration, up to 1 hour",
+    range: "120 feet",
+    description: "You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured, It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st."
   },
   {
     name: "Forbiddance (Ritual)",
