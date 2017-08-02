@@ -1267,11 +1267,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Druid, Ranger, Sorcerer, Wizard",
+    duration: "8 hours",
+    range: "Touch",
+    description: "(either a pinch of dried carrot or an agate) - You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet."
   },
   {
     name: "Daylight",
