@@ -1644,11 +1644,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V, S",
+    class: "Warlock",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "120 feet",
+    description: "A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage. The spell creates more than one beam when you reach higher levels: Two beams at 5th level. Three beams at 11th level. Four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam."
   },
   {
     name: "Elemental Bane",
