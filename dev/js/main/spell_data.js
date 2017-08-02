@@ -1865,11 +1865,11 @@ var spell_data = [
     casting_time: "Special",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, M",
+    class: "Bard, Sorcerer, Wizard",
+    duration: "1 Minute",
+    range: "60 feet",
+    description: "(a small feather or piece of down) - Reaction: When you or a creature within 60 feet of you falls Choose up to five falling creatures within range. A falling creature’s rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature."
   },
   {
     name: "Feeblemind",
