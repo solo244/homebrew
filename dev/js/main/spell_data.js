@@ -2333,11 +2333,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S",
+    class: "Bard, Sorcerer, Wizard",
+    duration: "Concentration, up to 1 minute",
+    range: "Touch",
+    description: "You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target’s person."
   },
   {
     name: "Greater Restoration",
