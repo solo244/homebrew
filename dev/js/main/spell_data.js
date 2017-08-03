@@ -2554,11 +2554,11 @@ var spell_data = [
     casting_time: "Special",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V, S",
+    class: "Warlock",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "60 feet",
+    description: "Reaction: you are being damaged by a creature within 60 feet of you that you can see. You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes 2d10 fire damage on a failed save, or half as much damage on a successful one. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1dlO for each slot level above 1st."
   },
   {
     name: "Heroes’ Feast",
