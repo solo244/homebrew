@@ -2840,11 +2840,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S",
+    class: "Druid, Sorcerer, Warlock, Wizard",
+    duration: "Concentration, up to 10 minutes",
+    range: "Self",
+    description: "Until the spell ends, wind whirls around you, and you gain the following benefits: Ranged weapon attacks made against you have disad- vantage on the attack roll, You gain a flying speed of 60 feet. If you are still flying when the spell ends, you fall, unless you can some- how prevent it, You can use your action to create a 15-foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes 2d10 bludgeoning damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube."
   },
   {
     name: "Invisibility",
