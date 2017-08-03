@@ -2866,11 +2866,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Druid, Ranger, Sorcerer, Wizard",
+    duration: "1 Minute",
+    range: "Touch",
+    description: "(a grasshopper’s hind leg) - You touch a creature. The creature’s jump distance is tripled until the spell ends."
   },
   {
     name: "Knock",
