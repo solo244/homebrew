@@ -3048,11 +3048,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Bard, Druid, Ranger, Wizard",
+    duration: "1 hour",
+    range: "Touch",
+    description: "(a pinch of dirt) - You touch a creature. The target’s speed increases by 10 feet until the spell ends. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
   },
   {
     name: "Maelstrom",
