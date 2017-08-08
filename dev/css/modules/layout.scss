@@ -260,18 +260,73 @@
   margin: 0 auto;
 
   .saying {
+    border-bottom: 1px solid $_grey;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
     h3 {
       margin-bottom: 0;
+
+      &:before {
+        content: "[ ";
+      }
+
+      &:after {
+        content: " ]";
+      }
+
+      span {
+        background-color: $black;
+        border-radius: 50%;
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        position: relative;
+        top: -3px;
+      }
     }
 
     h4 {
       text-transform: uppercase;
       color: $grey;
       margin-bottom: 20px;
+      font-weight: 100;
+      font-size: 13px;
     }
 
     p {
       padding-left: 30px;
+    }
+
+    .grid-levels {
+      border-left: 1px solid $_grey;
+      border-top: 1px solid $_grey;
+      margin-left: 30px;
+      margin-top: 30px;
+
+      .lvl {
+        border-right: 1px solid $_grey;
+        border-bottom: 1px solid $_grey;
+        padding: 0;
+        margin: 0;
+        width: calc(20% - 1px);
+        float: left;
+        padding: 20px 0;
+        text-align: center;
+        color: $black;
+        font-weight: bold;
+
+        span {
+          font-weight: normal;
+          display: block;
+          color: $primary;
+        }
+
+        &.active {
+          background-color: $__grey;
+          color: $blue;
+        }
+      }
     }
   }
 }
