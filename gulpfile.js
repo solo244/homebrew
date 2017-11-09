@@ -122,8 +122,8 @@ gulp.task('deploy', ['replace'], function() {
   });
 
   return gulp.src( globs, { base: distPath, buffer: false } )
-    .pipe( conn.newer('/httpdocs/' + folder + '/'))
-    .pipe( conn.dest('/httpdocs/' + folder + '/')
+    .pipe( conn.newer('/' + folder + '/'))
+    .pipe( conn.dest('/' + folder + '/')
   );
 });
 
