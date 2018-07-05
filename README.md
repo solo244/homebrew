@@ -1,6 +1,7 @@
 # Solo's Workshop - Homebrew 5.0
 
 ## Release
+Online at: https://kenvandamme.be/d&d/homebrew/
 
 ## About
 Homebrew materials for personal D&D 5.0 campaigns.
