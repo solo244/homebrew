@@ -99,6 +99,13 @@ gulp.task('copy', function(){
   );
 });
 
+// Copy favicon
+gulp.task("favicon", function(){
+  return gulp.src(buildPath + "**")
+    .pipe(gulp.dest(distPath + "favicon")
+  );
+});
+
 // Replace text for dist folder
 gulp.task('replace', ['copy'], function(){
   return gulp.src([distPath + '**/*.html'])
@@ -136,7 +143,7 @@ gulp.task('delete', ['deploy'], function(){
 /*
  * Default gulp task
  */
-gulp.task('default', gulpSequence("vendors", "js", "css", "pug", "images", "fonts", "update"));
+gulp.task('default', gulpSequence("vendors", "js", "css", "pug", "images", "fonts", "favicon", "update"));
 
 gulp.task('update', function() {
   browserSync({server: "./" + buildPath});
@@ -152,5 +159,5 @@ gulp.task('update', function() {
  * Deployment gulp task via ftp
  */
 gulp.task('ftp', function (cb) {
-  gulpSequence("vendors", "js", "css", "pug", "images", "fonts", "copy", "replace", "deploy", "delete")(cb);
+  gulpSequence("vendors", "js", "css", "pug", "images", "fonts", "favicon", "copy", "replace", "deploy", "delete")(cb);
 });
