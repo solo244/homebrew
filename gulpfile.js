@@ -1,5 +1,5 @@
 var project   = "homebrew", // Local folder name
-    folder    = "d&d/homebrew", // Online folder, empty if root
+    folder    = "", // Online folder, empty if root
     assetPath = "dev/", // Local asset path
     buildPath = "build/", // Local build path
     distPath  = "dist/"; // Local dist path
