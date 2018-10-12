@@ -161,3 +161,10 @@ gulp.task('update', function() {
 gulp.task('ftp', function (cb) {
   gulpSequence("vendors", "js", "css", "pug", "images", "fonts", "favicon", "copy", "replace", "deploy", "delete")(cb);
 });
+
+/*
+ * Deployment gulp task via Netlify
+ */
+gulp.task('publish', function (cb) {
+  gulpSequence("vendors", "js", "css", "pug", "images", "fonts", "favicon", "copy", "replace")(cb);
+});
