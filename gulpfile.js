@@ -109,8 +109,8 @@ gulp.task("favicon", function(){
 // Replace text for dist folder
 gulp.task('replace', ['copy'], function(){
   return gulp.src([distPath + '**/*.html'])
-    .pipe(replace(/src="\//g, 'src="/' + folder + '/'))
-    .pipe(replace(/href="\//g, 'href="/' + folder + '/'))
+    .pipe(replace(/src="\//g, 'src="/' + folder))
+    .pipe(replace(/href="\//g, 'href="/' + folder))
     .pipe(gulp.dest(distPath + '')
   );
 });
@@ -129,8 +129,8 @@ gulp.task('deploy', ['replace'], function() {
   });
 
   return gulp.src( globs, { base: distPath, buffer: false } )
-    .pipe( conn.newer('/' + folder + '/'))
-    .pipe( conn.dest('/' + folder + '/')
+    .pipe( conn.newer('/' + folder))
+    .pipe( conn.dest('/' + folder)
   );
 });
 
