@@ -10,8 +10,7 @@
       $sort_c3 = $sorting.find(".c3"),
       $sort_c4 = $sorting.find(".c4"),
       $sort_c5 = $sorting.find(".c5"),
-      $sort_c6 = $sorting.find(".c6"),
-      $spells = $body.find(".spells");
+      $sort_c6 = $sorting.find(".c6");
 
   $sorting.find("input").on("click", reSort);
 
@@ -19,6 +18,8 @@
    *
    */
   function reSort(e){
+    var $spells = $body.find(".spells");
+
     var selected_c1 = [],
         selected_c2 = [],
         selected_c3 = [],
@@ -104,37 +105,38 @@
       selected_c4 = ["1 Action", "1 Bonus", "1 Minute", "10 Minutes", "1 Hour", "8 Hours", "Special"];
     }
     if(selected_c5.length === 0) {
-      selected_c5 = ["V", "S", "M"];
+      selected_c5 = ["V", "S", "M", "V, S", "V, M", "S, M", "V, S, M", "-"];
     }
     if(selected_c6.length === 0) {
       selected_c6 = ["Yes", "-"];
     }
 
+    console.log('Comp: ', selected_c5);
+
     // Show/hide spells
     $spells.find(".spell").each(function() {
       var $this = $(this),
-          $level = $this.find(".c2").text(),
-          $school = $this.find(".c3").text(),
-          $ritual = $this.find(".c4").text(),
-          $time = $this.find(".c5").text(),
-          $components = $this.find(".c6").text(),
-          $concentration = $this.find(".c7").text();
+          $level = "" + $this.find(".c2").text(),
+          $school = "" + $this.find(".c3").text(),
+          $ritual = "" + $this.find(".c4").text(),
+          $time = "" + $this.find(".c5").text(),
+          $components = "" + $this.find(".c6").text(),
+          $concentration = "" + $this.find(".c7").text();
 
-      var spellsMatch1 = selected_c1.includes($level),
-          spellsMatch2 = selected_c2.includes($school),
-          spellsMatch3 = selected_c3.includes($ritual),
-          spellsMatch4 = selected_c4.includes($time),
-          spellsMatch5 = selected_c5.includes($components),
-          spellsMatch6 = selected_c6.includes($concentration);
+      $this.addClass("hide-spell");
 
-      //console.log(spellsMatch1);
+      var spellsMatch1 = selected_c1.indexOf($level),
+          spellsMatch2 = selected_c2.indexOf($school),
+          spellsMatch3 = selected_c3.indexOf($ritual),
+          spellsMatch4 = selected_c4.indexOf($time),
+          spellsMatch5 = selected_c5.indexOf($components),
+          spellsMatch6 = selected_c6.indexOf($concentration);
 
-      if(spellsMatch1 && spellsMatch2 && spellsMatch3 && spellsMatch4 && spellsMatch5 && spellsMatch6) {
-        console.log("count");
+      console.log(spellsMatch5);
+
+      if(spellsMatch1 >= 0 && spellsMatch2 >= 0 && spellsMatch3 >= 0 && spellsMatch4 >= 0 && spellsMatch5 >= 0 && spellsMatch6 >= 0) {
         $this.removeClass("hide-spell");
-      } else {
-        $this.addClass("hide-spell");
-        $this.removeClass("active");
+        console.log('show this');
       }
     });
 

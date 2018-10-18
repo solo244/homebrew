@@ -23,12 +23,7 @@
   function openClose(e) {
     var $this = $(this);
 
-    if($this.hasClass("active")){
-      $(".spell").removeClass("active");
-    } else {
-      $(".spell").removeClass("active");
-      $this.addClass("active");
-    }
+    $this.toggleClass("active");
   }
 
 })(jQuery);
