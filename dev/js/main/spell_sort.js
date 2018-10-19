@@ -111,8 +111,6 @@
       selected_c6 = ["Yes", "-"];
     }
 
-    console.log('Comp: ', selected_c5);
-
     // Show/hide spells
     $spells.find(".spell").each(function() {
       var $this = $(this),
@@ -132,11 +130,8 @@
           spellsMatch5 = selected_c5.indexOf($components),
           spellsMatch6 = selected_c6.indexOf($concentration);
 
-      console.log(spellsMatch5);
-
       if(spellsMatch1 >= 0 && spellsMatch2 >= 0 && spellsMatch3 >= 0 && spellsMatch4 >= 0 && spellsMatch5 >= 0 && spellsMatch6 >= 0) {
         $this.removeClass("hide-spell");
-        console.log('show this');
       }
     });
 
