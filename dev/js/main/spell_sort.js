@@ -144,6 +144,10 @@
       }, 800);
       clearInterval(timer);
     }
+
+    // Count total spells
+    var total = $(".spell:not(.hide-spell)").length;
+    $(".sorting .total").text(total);
   }
 
 })(jQuery);

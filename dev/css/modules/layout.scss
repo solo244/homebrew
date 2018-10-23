@@ -219,15 +219,10 @@
   padding: 20px;
   margin-bottom: 30px;
   text-align: left;
-
-  .c1, .c2, .c3, .c4, .c5, .c6 {
-    float: left;
-    width: 16.66%;
-  }
-
-  .c1 {
-    width: 16.66%;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
 
   .sortTitle {
     text-transform: uppercase;
@@ -236,6 +231,15 @@
     letter-spacing: 1px;
     margin-bottom: 10px;
     font-weight: bold;
+  }
+
+  .total {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: $_grey;
+    padding: 5px 10px;
+    text-align: center;
   }
 
   ul {
