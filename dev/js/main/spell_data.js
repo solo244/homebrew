@@ -1488,11 +1488,11 @@ var spell_data = [
     casting_time: "1 Bonus",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S",
+    class: "Paladin",
+    duration: "1 Minute",
+    range: "Self",
+    description: "Your prayer empowers you with divine radiance. Until the spell ends, your weapon attacks deal and extra 1d4 radiant damage on a hit."
   },
   {
     name: "Divine Word",
