@@ -18,6 +18,9 @@
     }
 
     $(".spell").on("click", openClose);
+
+    var total = $(".spell:not(.hide-spell)").length;
+    $(".sorting .total").text(total);
   }
 
   function openClose(e) {

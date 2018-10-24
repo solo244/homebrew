@@ -5,6 +5,7 @@
    */
   var $body = $("html, body"),
       $sorting = $body.find(".sorting"),
+      $sort_c0 = $sorting.find(".c0"),
       $sort_c1 = $sorting.find(".c1"),
       $sort_c2 = $sorting.find(".c2"),
       $sort_c3 = $sorting.find(".c3"),
@@ -13,6 +14,7 @@
       $sort_c6 = $sorting.find(".c6");
 
   $sorting.find("input").on("click", reSort);
+  setSpellCount();
 
   /*
    *
@@ -20,12 +22,22 @@
   function reSort(e){
     var $spells = $body.find(".spells");
 
-    var selected_c1 = [],
+    var selected_c0 = [],
+        selected_c1 = [],
         selected_c2 = [],
         selected_c3 = [],
         selected_c4 = [],
         selected_c5 = [],
         selected_c6 = [];
+
+    $sort_c0.find("input").each(function() {
+      var $this = $(this),
+          $text = $this.closest("li").text().trim();
+
+      if($this.is(":checked")) {
+        selected_c0.push($text);
+      }
+    });
 
     $sort_c1.find("input").each(function() {
       var $this = $(this),
@@ -92,6 +104,9 @@
       }
     });
 
+    if(selected_c0.length === 0) {
+      selected_c0 = ["Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard"];
+    }
     if(selected_c1.length === 0) {
       selected_c1 = ["0", "1", "2", "3", "4", "5", "6", "7", "8"];
     }
@@ -114,6 +129,7 @@
     // Show/hide spells
     $spells.find(".spell").each(function() {
       var $this = $(this),
+          $class = "" + $this.find(".c1").text(),
           $level = "" + $this.find(".c2").text(),
           $school = "" + $this.find(".c3").text(),
           $ritual = "" + $this.find(".c4").text(),
@@ -123,12 +139,17 @@
 
       $this.addClass("hide-spell");
 
-      var spellsMatch1 = selected_c1.indexOf($level),
+      var spellsMatch0 = selected_c0.indexOf($class),
+          spellsMatch1 = selected_c1.indexOf($level),
           spellsMatch2 = selected_c2.indexOf($school),
           spellsMatch3 = selected_c3.indexOf($ritual),
           spellsMatch4 = selected_c4.indexOf($time),
           spellsMatch5 = selected_c5.indexOf($components),
           spellsMatch6 = selected_c6.indexOf($concentration);
+
+      /*if(spellsMatch0 >= 0 && spellsMatch1 >= 0 && spellsMatch2 >= 0 && spellsMatch3 >= 0 && spellsMatch4 >= 0 && spellsMatch5 >= 0 && spellsMatch6 >= 0) {
+        $this.removeClass("hide-spell");
+      }*/
 
       if(spellsMatch1 >= 0 && spellsMatch2 >= 0 && spellsMatch3 >= 0 && spellsMatch4 >= 0 && spellsMatch5 >= 0 && spellsMatch6 >= 0) {
         $this.removeClass("hide-spell");
@@ -146,6 +167,13 @@
     }
 
     // Count total spells
+    setSpellCount();
+  }
+
+  /*
+   *
+   */
+  function setSpellCount() {
     var total = $(".spell:not(.hide-spell)").length;
     $(".sorting .total").text(total);
   }
