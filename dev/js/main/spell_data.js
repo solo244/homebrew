@@ -3009,11 +3009,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "Yes",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V, S, M",
+    class: "Bard, Druid, Ranger",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "Self",
+    description: "Describe or name a specific kind of beast or plant. Concentrating on the voice of nature in your surroundings, you learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present."
   },
   {
     name: "Locate Creature",
