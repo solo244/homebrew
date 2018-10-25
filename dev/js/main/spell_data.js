@@ -3165,11 +3165,11 @@ var spell_data = [
     casting_time: "1 Bonus",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
+    components: "V, S",
     class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    duration: "1 Hour",
+    range: "Touch",
+    description: "You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3."
   },
   {
     name: "Major Image",
