@@ -3425,11 +3425,11 @@ var spell_data = [
     casting_time: "1 Bonus",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V",
+    class: "Sorcerer, Warlock, Wizard",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "Self",
+    description: "Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see."
   },
   {
     name: "Modify Memory",
