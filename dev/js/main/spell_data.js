@@ -3815,11 +3815,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S",
+    class: "Druid",
+    duration: "1 Minute",
+    range: "Self",
+    description: "You have resistance to acid, cold, fire, lightning, and thunder damage for the spell’s duration. When you take damage of one of those types, you can use your reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends."
   },
   {
     name: "Prismatic Spray",
