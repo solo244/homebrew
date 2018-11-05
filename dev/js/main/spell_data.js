@@ -3932,11 +3932,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "Yes",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V, S",
+    class: "Cleric, Druid, Paladin",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "10 feet",
+    description: "All nonmagical food and drink within a 5-foot-radius sphere centered on a point of your choice within range is purified and rendered free of poison and disease."
   },
   {
     name: "Pyrotechnics",
