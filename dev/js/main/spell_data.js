@@ -3893,11 +3893,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S",
+    class: "Cleric, Druid, Ranger, Sorcerer, Wizard",
+    duration: "1 Hour",
+    range: "Touch",
+    description: "For the duration, the willing creature you touch has resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder."
   },
   {
     name: "Protection from Evil and Good",
