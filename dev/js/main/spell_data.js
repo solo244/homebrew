@@ -4101,11 +4101,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V, S, M",
+    class: "Cleric, Paladin",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "Touch",
+    description: "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can’t return to life a creature that has died of old age, nor can it restore any missing body parts."
   },
   {
     name: "Rope Trick",
