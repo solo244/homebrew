@@ -3984,11 +3984,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S",
+    class: "Warlock, Wizard",
+    duration: "1 Minute",
+    range: "60 feet",
+    description: "A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength until the spell ends. At the end of each of the target’s turns, it can make a Constitution saving throw against the spell. On a success, the spell ends."
   },
   {
     name: "Ray of Frost",
