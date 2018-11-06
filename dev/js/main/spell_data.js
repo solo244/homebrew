@@ -4049,11 +4049,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V, S",
+    class: "Cleric, Paladin, Warlock, Wizard",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "Touch",
+    description: "At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner’s attunement to the object so it can be removed or discarded."
   },
   {
     name: "Resistance",
