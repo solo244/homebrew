@@ -1,0 +1,99 @@
+doctype html
+html
+  head
+    title Languages - Homebrew 5.0 - Solo's Workshop
+    include /header.pug
+  body.pages.page-languages
+    header.intro
+      a.logo(href="/")
+        img(src="/images/logo_white.png", alt="logo", width="40")
+      h2 D&D 5.0 - Homebrew
+      h1 Languages
+
+    .container.divider
+      p Some of these languages are actually families of languages with many dialects. For example, the Primordial language includes the Auran, Aquan, Ignan, and Terran dialects, one for each of the four elemental planes. Creatures that speak different dialects of the same language can communicate with one another.
+
+    .container
+      include /search.pug
+      .languages.cols.search-result
+        h2.text-center Common languages
+        ul.submenu
+          li.c1 Name
+          li.c2 Typical Speakers
+          li.c3 Script
+        .language.show-result.seRe
+          .c1.searchable Common
+          .c2 Human
+          .c3 Common
+        .language.show-result.seRe
+          .c1.searchable Dwarvish
+          .c2 Dwarves
+          .c3 Dwarvish
+        .language.show-result.seRe
+          .c1.searchable Elvish
+          .c2 Elves
+          .c3 Elvish
+        .language.show-result.seRe
+          .c1.searchable Giant
+          .c2 Ogres, Giants
+          .c3 Dwarvish
+        .language.show-result.seRe
+          .c1.searchable Gnomish
+          .c2 Gnomes
+          .c3 Dwarvish
+        .language.show-result.seRe
+          .c1.searchable Goblin
+          .c2 Goblinoids
+          .c3 Dwarvish
+        .language.show-result.seRe
+          .c1.searchable Halfling
+          .c2 Halflings
+          .c3 Common
+        .language.show-result.seRe
+          .c1.searchable Orc
+          .c2 Orcs
+          .c3 Dwarvish
+        .divider.clear
+        h2.text-center Exotic languages
+        ul.submenu
+          li.c1 Name
+          li.c2 Typical Speakers
+          li.c3 Script
+        .language.show-result.seRe
+          .c1.searchable Abyssal
+          .c2 Demons
+          .c3 Infernal
+        .language.show-result.seRe
+          .c1.searchable Celestial
+          .c2 Celestials
+          .c3 Celestial
+        .language.show-result.seRe
+          .c1.searchable Draconic
+          .c2 Dragons, dragonborn
+          .c3 Draconic
+        .language.show-result.seRe
+          .c1.searchable Deep Speech
+          .c2 Mind flayers, beholders
+          .c3 None
+        .language.show-result.seRe
+          .c1.searchable Infernal
+          .c2 Devils
+          .c3 Infernal
+        .language.show-result.seRe
+          .c1.searchable Primordial
+          .c2 Elementals
+          .c3 Dwarvish
+        .language.show-result.seRe
+          .c1.searchable Sylvan
+          .c2 Fey
+          .c3 Elvish
+        .language.show-result.seRe
+          .c1.searchable Undercommon
+          .c2 Underdark traders
+          .c3 Elvish
+        .language.show-result.seRe
+          .c1.searchable Druidic
+          .c2 Druids
+          .c3 None
+        .divider.clear
+    include /footer.pug

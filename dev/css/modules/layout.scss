@@ -65,16 +65,7 @@
 }
 
 .weapons {
-  .weapon-melee {
-    margin-bottom: 5px;
-    @include clearfix();
-    display: none;
-
-    &.show-result {
-      display: block;
-    }
-  }
-
+  .weapon-melee,
   .weapon-ranged {
     margin-bottom: 5px;
     @include clearfix();
@@ -105,6 +96,25 @@
       span {
         display: none;
       }
+    }
+  }
+}
+
+// Languages
+.page-languages {
+  .c1, .c2, .c3 {
+    width: 33.33%;
+  }
+}
+
+.languages {
+  .language {
+    margin-bottom: 5px;
+    @include clearfix();
+    display: none;
+
+    &.show-result {
+      display: block;
     }
   }
 }
