@@ -17,7 +17,7 @@ html
     .container
       include /search.pug
       .weapons.cols.search-result
-        h2.text-center Melee weapons
+        h2.text-center Simple melee weapons
         ul.submenu
           li.c1 Name
           li.c2 Type
@@ -67,16 +67,48 @@ html
           .c4 1gp
           .c5 -
         .weapon-melee.show-result.seRe
-          .c1.searchable Morningstar
-          .c2 Martial 1h
-          .c3 1d8
-          .c4 10gp
-          .c5 -
-        .weapon-melee.show-result.seRe
           .c1.searchable Quarterstaff
           .c2 Simple 2h
           .c3 1d6
           .c4 5gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Handaxe
+          .c2 Simple 1h
+          .c3 1d6
+          .c4 5gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Throw Hammer
+          .c2 Simple 1h
+          .c3 1d4
+          .c4 5gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Spiked Chain
+          .c2 Simple 1h
+          .c3 1d4
+          .c4 30gp
+          .c5 -
+        .weapon-melee.show-result.seRe
+          .c1.searchable Any
+          .c2 Simple 1h
+          .c3 -
+          .c4 -
+          .c5 -
+        .divider.clear
+        h2.text-center Martial melee weapons
+        ul.submenu
+          li.c1 Name
+          li.c2 Type
+          li.c3 Damage
+          li.c4 Money
+          li.c5 Range
+        .weapon-melee.show-result.seRe
+          .c1.searchable Morningstar
+          .c2 Martial 1h
+          .c3 1d8
+          .c4 10gp
           .c5 -
         .weapon-melee.show-result.seRe
           .c1.searchable Scythe
@@ -97,12 +129,6 @@ html
           .c4 10gp
           .c5 -
         .weapon-melee.show-result.seRe
-          .c1.searchable Handaxe
-          .c2 Simple 1h
-          .c3 1d6
-          .c4 5gp
-          .c5 -
-        .weapon-melee.show-result.seRe
           .c1.searchable Longsword
           .c2 Martial 1h
           .c3 1d8
@@ -119,12 +145,6 @@ html
           .c2 Martial 1h
           .c3 1d6
           .c4 10gp
-          .c5 -
-        .weapon-melee.show-result.seRe
-          .c1.searchable Throw Hammer
-          .c2 Simple 1h
-          .c3 1d4
-          .c4 5gp
           .c5 -
         .weapon-melee.show-result.seRe
           .c1.searchable Warhammer
@@ -179,7 +199,7 @@ html
           .c2 Martial 1h
           .c3 1d6
           .c4 5gp
-          .c5 -
+          .c5 6/20
         .weapon-melee.show-result.seRe
           .c1.searchable Whip
           .c2 Martial 1h
@@ -213,23 +233,11 @@ html
         .weapon-melee.show-result.seRe
           .c1.searchable Rapier
           .c2 Martial 1h
-          .c3 1d4
+          .c3 1d8
           .c4 25gp
           .c5 -
-        .weapon-melee.show-result.seRe
-          .c1.searchable Spiked Chain
-          .c2 Simple 1h
-          .c3 1d4
-          .c4 30gp
-          .c5 -
-        .weapon-melee.show-result.seRe
-          .c1.searchable Any
-          .c2 Simple 1h
-          .c3 -
-          .c4 -
-          .c5 -
         .divider.clear
-        h2.text-center Ranged weapons
+        h2.text-center Simple ranged weapons
         ul.submenu
           li.c1.searchable Name
           li.c2 Type
@@ -237,11 +245,11 @@ html
           li.c4 Money
           li.c5 Range
         .weapon-ranged.show-result.seRe
-          .c1.searchable Hand Crossbow
-          .c2 Simple 1h
-          .c3 1d6
-          .c4 25gp
-          .c5 10/20
+          .c1.searchable Light crossbow
+          .c2 Simple 2h
+          .c3 1d8
+          .c4 25sp
+          .c5 15/60
         .weapon-ranged.show-result.seRe
           .c1.searchable Dart
           .c2 Simple 1h
@@ -259,6 +267,20 @@ html
           .c2 Simple 1h
           .c3 1d4
           .c4 1gp
+          .c5 10/20
+        .divider.clear
+        h2.text-center Martial ranged weapons
+        ul.submenu
+          li.c1.searchable Name
+          li.c2 Type
+          li.c3 Damage
+          li.c4 Money
+          li.c5 Range
+        .weapon-ranged.show-result.seRe
+          .c1.searchable Hand Crossbow
+          .c2 Martial 1h
+          .c3 1d6
+          .c4 25gp
           .c5 10/20
         .weapon-ranged.show-result.seRe
           .c1.searchable Blowgun
@@ -290,6 +312,4 @@ html
           .c3 1d4
           .c4 1gp
           .c5 3/12
-        .divider.clear
-
     include /footer.pug
