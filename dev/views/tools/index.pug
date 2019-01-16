@@ -1,0 +1,93 @@
+doctype html
+html
+  head
+    title Tools - Homebrew 5.0 - Solo's Workshop
+    include /header.pug
+  body.pages.page-tools
+    header.intro
+      a.logo(href="/")
+        img(src="/images/logo_white.png", alt="logo", width="40")
+      h2 D&D 5.0 - Homebrew
+      h1 Tools
+
+    .container.divider
+      p A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, forge a document, or pick a lock. Your race, class, Background, or feats give you proficiency with certain tools. Proficiency with a tool allows you to add your Proficiency Bonus to any ability check you make using that tool. Tool use is not tied to a single ability, since proficiency with a tool represents broader knowledge of its use. For example, the GM might ask you to make a Dexterity check to carve a fine detail with your woodcarver’s tools, or a Strength check to make something out of particularly hard wood.
+
+    .container
+      include /search.pug
+      .tools.cols.search-result
+        h2.text-center Tools
+        ul.submenu
+          li.c1 Name
+          li.c2 Crafts
+          li.c3 Cost tools
+        .tool.show-result.seRe
+          .c1.searchable Alchemist
+          .c2 Acid, Alchemist’s Fire, Antitoxin, Candle, Ink, Oil, Perfume, Potions, Sealing Wax, Soap
+          .c3 50 gp
+        .tool.show-result.seRe
+          .c1.searchable Brewer
+          .c2 Ale, Wine, and Liquor. Ale and Wine are RAW, Liquor will be up to the DM.
+          .c3 20 gp
+        .tool.show-result.seRe
+          .c1.searchable Calligrapher
+          .c2 Books, Manuscripts, Tomes, Scrolls
+          .c3 10 gp
+        .tool.show-result.seRe
+          .c1.searchable Carpenter
+          .c2 Shields, Laminar Armor**(wooden ring mail), Bucket, Chest, Ladder, Portable Ram, Vehicles.
+          .c3 15 gp
+        .tool.show-result.seRe
+          .c1.searchable Cartographer
+          .c2 Can create high quality maps that can be modified and sold as artwork.
+          .c3 15 gp
+        .tool.show-result.seRe
+          .c1.searchable Cobbler
+          .c2 Footwear for common, costume, fine, travelers clothing.
+          .c3 5 gp
+        .tool.show-result.seRe
+          .c1.searchable Cook
+          .c2 Bread, Cheese, Meat, Meals, Banquets
+          .c3 1 gp
+        .tool.show-result.seRe
+          .c1.searchable Glassblower
+          .c2 Handful of relevant options that synergize well with Alchemists, Poisoners, Brewers.
+          .c3 30 gp
+        .tool.show-result.seRe
+          .c1.searchable Jeweler
+          .c2 Arcane Focus(Crystal, Orb, Rod, Staff, Wand), Holy Symbol(Amulet, Emblem, Reliquary), Signet Ring
+          .c3 25 gp
+        .tool.show-result.seRe
+          .c1.searchable Leatherworker
+          .c2 Sling, Whip, Leather/Hide Armors, and a smattering of leather goods such as spellbooks, pouches, and survival gear.
+          .c3 5 gp
+        .tool.show-result.seRe
+          .c1.searchable Mason
+          .c2 A select number of RAW magic items can be created. Can create stone artwork such as statues.
+          .c3 10 gp
+        .tool.show-result.seRe
+          .c1.searchable Painter
+          .c2 Books, Paintings
+          .c3 10 gp
+        .tool.show-result.seRe
+          .c1.searchable Potter
+          .c2 Barrel, Bell, Bottle, Bucket, Cnadle, Flask/Tankard, Jug/Pitcher, Mirror, Pole, Pot
+          .c3 10 gp
+        .tool.show-result.seRe
+          .c1.searchable Smith
+          .c2 Most medium armors, all heavy armors, most weapons, many pieces of adventuring gear
+          .c3 20 gp
+        .tool.show-result.seRe
+          .c1.searchable Tinker
+          .c2 Can the lead the creation of some assembled items, but assist in the creation of a great many items
+          .c3 50 gp
+        .tool.show-result.seRe
+          .c1.searchable Weaver
+          .c2 Sling, Basket, Blanket, Clothes, Pouch, Robes, Rope, Sack
+          .c3 1 gp
+        .tool.show-result.seRe
+          .c1.searchable Woodcarver
+          .c2 All non-slashing weapons, Laminar Armor, several pieces of adventuring gear.
+          .c3 1 gp
+        .divider.clear
+    include /footer.pug

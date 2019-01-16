@@ -77,7 +77,6 @@
     }
 
     &:hover {
-      font-weight: bold;
       background-color: $__grey;
     }
   }
@@ -106,14 +105,13 @@
     }
 
     &:hover {
-      font-weight: bold;
       background-color: $__grey;
     }
   }
 }
 
 // Languages
-.page-languages {
+.page-languages .cols {
   .c1, .c2, .c3 {
     width: 33.33%;
   }
@@ -131,7 +129,36 @@
     }
 
     &:hover {
-      font-weight: bold;
+      background-color: $__grey;
+    }
+  }
+}
+
+// Tools
+.page-tools .cols {
+  .c1 {
+    width: 18%;
+  }
+  .c2 {
+    width: 72%;
+  }
+  .c3 {
+    width: 10%;
+  }
+}
+
+.tools {
+  .tool {
+    margin-bottom: 5px;
+    @include clearfix();
+    display: none;
+    transition: all .2s;
+
+    &.show-result {
+      display: block;
+    }
+
+    &:hover {
       background-color: $__grey;
     }
   }
@@ -170,7 +197,6 @@
     }
 
     &:hover {
-      font-weight: bold;
       background-color: $__grey;
     }
   }
