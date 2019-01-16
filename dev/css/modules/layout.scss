@@ -70,9 +70,15 @@
     margin-bottom: 5px;
     @include clearfix();
     display: none;
+    transform: all .2s;
 
     &.show-result {
       display: block;
+    }
+
+    &:hover {
+      font-weight: bold;
+      background-color: $__grey;
     }
   }
 }
@@ -87,6 +93,7 @@
     margin-bottom: 5px;
     @include clearfix();
     display: none;
+    transform: all .2s;
 
     &.show-result {
       display: block;
@@ -96,6 +103,11 @@
       span {
         display: none;
       }
+    }
+
+    &:hover {
+      font-weight: bold;
+      background-color: $__grey;
     }
   }
 }
@@ -112,9 +124,15 @@
     margin-bottom: 5px;
     @include clearfix();
     display: none;
+    transition: all .2s;
 
     &.show-result {
       display: block;
+    }
+
+    &:hover {
+      font-weight: bold;
+      background-color: $__grey;
     }
   }
 }
@@ -145,9 +163,15 @@
 
   .god {
     display: none;
+    transition: all .2s;
 
     &.show-result {
       display: block;
+    }
+
+    &:hover {
+      font-weight: bold;
+      background-color: $__grey;
     }
   }
 }
