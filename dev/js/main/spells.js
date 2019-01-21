@@ -10,10 +10,19 @@
       var level = String(spell_data[i].level).toLowerCase(),
           school = String(spell_data[i].school).toLowerCase(),
           classes_raw = String(spell_data[i].class).toLowerCase(),
-          classes = classes_raw.replace(/\,/g, '');
-          data = level + " " + school + " " + classes;
+          classes = classes_raw.replace(/\,/g, ""),
+          ritual_raw = String(spell_data[i].ritual).toLowerCase(),
+          casting_raw = String(spell_data[i].casting_time).toLowerCase(),
+          casting = casting_raw.replace(/\s/g, ""),
+          components_raw = String(spell_data[i].components).toLowerCase(),
+          components_line = components_raw.replace(/\,/g, "").replace(/\s/g, ""),
+          concentration_raw = String(spell_data[i].concentration).toLowerCase();
 
-      console.log('data:', data);
+      ritual_raw === "yes" ? ritual = "ritual" : ritual = "noritual";
+      components_line === "-" ? components = "-" : components = components_line;
+      concentration_raw === "yes" ? concentration = "concentration" : concentration = "noconcentration";
+
+      data = level + " " + school + " " + classes + " " + ritual + " " + casting + " " + components + " " + concentration;
 
       $spells.append('\
       <div class="spell" data-category="' + data + '">\
