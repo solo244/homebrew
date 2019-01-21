@@ -1,17 +1,10 @@
 (function ($) {
-
-  /*
-   * Vars
-   */
   var $body = $("html, body"),
-    $spells = $body.find(".spells"),
-    max = spell_data.length;
+      $spells = $body.find(".spells"),
+      max = spell_data.length;
 
   setSpells();
 
-  /*
-   *
-   */
   function setSpells(e) {
     for (var i = 0; i < max; i++) {
       var level = String(spell_data[i].level).toLowerCase(),

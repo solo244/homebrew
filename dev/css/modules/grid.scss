@@ -1,14 +1,21 @@
 .grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
   .grid-item {
-    float: left;
-    width: 33.33%;
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
 
     @media screen and (max-width: 900px) {
-      width: 50%;
+      max-width: 50%;
+      flex: 0 0 50%;
     }
 
     @media screen and (max-width: 550px) {
-      width: 100%;
+      max-width: 100%;
+      flex: 0 0 100%;
     }
 
     .grid-c {
