@@ -237,6 +237,17 @@
       width: 13%;
     }
 
+    .description {
+      p, ul {
+        margin-bottom: 10px;
+        max-width: none;
+      }
+
+      ul {
+        margin-left: 20px;
+      }
+    }
+
     .description, .classes {
       display: none;
     }

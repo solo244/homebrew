@@ -35,8 +35,8 @@ var spell_data = [
     components: "V, S",
     class: "Sorcerer, Wizard",
     duration: "Instantaneous",
-    range: "60 feet",
-    description: "You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage. This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)."
+    range: "20 feet",
+    description: "<p>You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 2 meter of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.</p><h4>Higher level</h4><p>This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>"
   },
   {
     name: "Aganazzar’s Scorcher",
@@ -478,7 +478,7 @@ var spell_data = [
     class: "Bard, Sorcerer, Warlock, Wizard",
     duration: "1 Round",
     range: "Self",
-    description: "You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks."
+    description: "<p>You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.</p>"
   },
   {
     name: "Bless",
@@ -581,8 +581,8 @@ var spell_data = [
     components: "V, M",
     class: "Sorcerer, Warlock, Wizard",
     duration: "1 Round",
-    range: "5 feet",
-    description: "(A weapon) - As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and it becomes sheathed in booming energy until the start of your next turn. If the target willingly moves be- fore then, it immediately takes 1d8 thunder damage, and the spell ends. This spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 thunder damage to the target, and the damage the target takes for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level."
+    range: "2 meter",
+    description: "<p>As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and it becomes sheathed in booming energy until the start of your next turn. If the target willingly moves before then, it immediately takes 1d8 thunder damage, and the spell ends.</p><h4>Higher level</h4><p>At 5th level, the melee attack deals an extra 1d8 thunder damage to the target, and the damage the target takes for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.</p><h4>Requires:</h4><p>A weapon</p>"
   },
   {
     name: "Branding Smite",
@@ -685,8 +685,8 @@ var spell_data = [
     components: "V, S",
     class: "Sorcerer, Warlock, Wizard",
     duration: "1 Round",
-    range: "120 feet",
-    description: "You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 1d8 necrotic damage, and it can’t regain hit points until the start of your next turn. Until then, the hand clings to the target. If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn. This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+    range: "40 meter",
+    description: "<p>You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 1d8 necrotic damage, and it can’t regain hit points until the start of your next turn. Until then, the hand clings to the target. If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.</p><h4>Higher level</h4><p>This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>"
   },
   {
     name: "Chromatic Orb",
@@ -1061,9 +1061,9 @@ var spell_data = [
     concentration: "-",
     components: "S",
     class: "Druid, Sorcerer, Wizard",
-    duration: "Instantaneous or 1 hour",
-    range: "60 feet",
-    description: "You choose nonmagical flame that you can see within range and that fits within a 5-foot cube. You affect it in one of the following ways: • You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location. • You instantaneously extinguish the flames within the cube. • You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour. • You cause simple shapes—such as the vague form of a creature, an inanimate object, or a location—to appear within the flames and animate as you like. The shapes last for 1 hour. If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+    duration: "1 Hour",
+    range: "20 meter",
+    description: "<p>You choose non magical flame that you can see within range and that fits within a 2-meter cube. You affect it in one of the following ways:</p><ul><li>You instantaneously expand the flame 2 meter in one direction, provided that wood or other fuel is present in the new location.</li><li>You instantaneously extinguish the flames within the cube.</li><li>You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.</li><li>You cause simple shapes—such as the vague form of a creature, an inanimate object, or a location—to appear within the flames and animate as you like.</li></ul><p>The shapes last for 1 hour. If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p>"
   },
   {
     name: "Control Water",
@@ -1140,8 +1140,8 @@ var spell_data = [
     components: "V, S",
     class: "Druid, Sorcerer, Warlock, Wizard",
     duration: "Concentration, up to 1 minute",
-    range: "60 feet",
-    description: "You create a bonfire on ground that you can see within range. Until the spells ends, the bonfire fills a 5-foot cube. Any creature in the bonfire’s space when you cast the spell must succeed on a Dexterity saving throw or take 1d8 fire damage. A creature must also make the saving throw when it enters the bonfire’s space for the first time on a turn or ends its turn there. The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+    range: "20 meter",
+    description: "<p>You create a bonfire on ground that you can see within range. Until the spells ends, the bonfire fills a 2-meter cube. Any creature in the bonfire’s space when you cast the spell must succeed on a Dexterity saving throw or take 1d8 fire damage. A creature must also make the saving throw when it enters the bonfire’s space for the first time on a turn or ends its turn there.</p><h4>Higher level</h4><p>The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>"
   },
   {
     name: "Create Food and Water",
@@ -1244,8 +1244,8 @@ var spell_data = [
     components: "V, S, M",
     class: "Bard, Sorcerer, Wizard",
     duration: "Concentration, up to 1 minute",
-    range: "120 feet",
-    description: "(a bit of phosphorus or wychwood, or a glowworm) - You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius. As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell’s range."
+    range: "40 meter",
+    description: "<p>You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 4-meter radius. As a bonus action on your turn, you can move the lights up to 20 meter to a new spot within range. A light must be within 7 meter of another light created by this spell, and a light winks out if it exceeds the spell’s range.</p><h4>Required</h4></p>A bit of phosphorus or wychwood, or a glowworm</p>"
   },
   {
     name: "Darkness",
@@ -1582,8 +1582,8 @@ var spell_data = [
     components: "V, S",
     class: "Druid",
     duration: "Instantaneous",
-    range: "30 feet",
-    description: "Whispering to the spirits of nature, you create one of the following effects within range: - You create a tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb  for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round. - You instantly make a flower blossom, a seed pod open, or a leaf bud bloom. - You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint odor of skunk. The effect  must fit in a 5-foot cube. - You instantly light or snuff out a candle, a torch, or a small campfire."
+    range: "10 meter",
+    description: "<p>Whispering to the spirits of nature, you create one of the following effects within range:</p><ul><li>You create a tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.</li><li>You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.</li><li>You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint odor of skunk. The effect  must fit in a 2-meter cube.</li><li>You instantly light or snuff out a candle, a torch, or a small campfire.</li></ul>"
   },
   {
     name: "Dust Devil",
@@ -1647,8 +1647,8 @@ var spell_data = [
     components: "V, S",
     class: "Warlock",
     duration: "Instantaneous",
-    range: "120 feet",
-    description: "A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage. The spell creates more than one beam when you reach higher levels: Two beams at 5th level. Three beams at 11th level. Four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam."
+    range: "40 meter",
+    description: "<p>A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.</p><h4>Higher level</h4><p>The spell creates more than one beam when you reach higher levels: Two beams at 5th level. Three beams at 11th level. Four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</p>"
   },
   {
     name: "Elemental Bane",
@@ -1826,11 +1826,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
+    components: "V",
+    class: "Bard, Druid",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "60 feet",
+    description: "Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius. Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can’t benefit from being invisible. "
   },
   {
     name: "False Life",
@@ -1972,8 +1972,8 @@ var spell_data = [
     components: "V, S",
     class: "Sorcerer, Wizard",
     duration: "Instantaneous",
-    range: "120 feet",
-    description: "You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn’t being worn or carried. This spell’s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10)."
+    range: "40 meter",
+    description: "<p>You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn’t being worn or carried.</p><h4>Higher level</h4><p>This spell’s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>"
   },
   {
     name: "Fire Shield",
@@ -2168,7 +2168,7 @@ var spell_data = [
     class: "Bard, Sorcerer, Warlock, Wizard",
     duration: "Concentration, up to 1 minute",
     range: "Self",
-    description: "(a small amount of makeup applied to the face as this spell is cast) - For the duration, you have advantage on all Charisma checks directed at one creature of your choice that isn’t hostile toward you. When the spell ends, the creature realizes that you used magic to influence its mood and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM’s discretion), depending on the nature of your interaction with it."
+    description: "<p>For the duration, you have advantage on all Charisma checks directed at one creature of your choice that isn’t hostile toward you. When the spell ends, the creature realizes that you used magic to influence its mood and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM’s discretion), depending on the nature of your interaction with it.</p><h4>Required:</h4><p>A small amount of makeup applied to the face as this spell is cast</p>"
   },
   {
     name: "Frostbite",
@@ -2180,8 +2180,8 @@ var spell_data = [
     components: "V, S",
     class: "Druid, Sorcerer, Warlock, Wizard",
     duration: "Instantaneous",
-    range: "60 feet",
-    description: "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn. The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)."
+    range: "20 meter",
+    description: "<p>You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn.</p><h4>Higher level</h4><p>The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>"
   },
   {
     name: "Gaseous Form",
@@ -2294,11 +2294,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V, S, M",
+    class: "Druid, Ranger",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "Touch",
+    description: "Up to ten berries appear in your hand and are infused with magic for the duration. A creature can use its action to eat one berry. Eating a berry restores 1 hit point, and the berry provides enough nourishment to sustain a creature for one day. The berries lose their potency if they have not been consumed within 24 hours of the casting of this spell."
   },
   {
     name: "Grasping Vine",
@@ -2362,8 +2362,8 @@ var spell_data = [
     components: "V, M",
     class: "Sorcerer, Warlock, Wizard",
     duration: "Instantaneous",
-    range: "5 feet",
-    description: "(a weapon) - As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and green fire leaps from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier. This spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 fire damage to the target, and the fire damage to the second creature increases to 1d8 + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th level and 17th level."
+    range: "2 meter",
+    description: "<p>As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and green fire leaps from the target to a different creature of your choice that you can see within 2 meter of it. The second creature takes fire damage equal to your spellcasting ability modifier.</p><h4>Higher level</h4><p>At 5th level, the melee attack deals an extra 1d8 fire damage to the target, and the fire damage to the second creature increases to 1d8 + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th level and 17th level.</p><h4>Required:</h4><p>A weapon</p>"
   },
   {
     name: "Guardian of Faith",
@@ -2398,11 +2398,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
+    components: "V, S",
+    class: "Cleric, Druid",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "Touch",
+    description: "<p>You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.</p>"
   },
   {
     name: "Guiding Bolt",
@@ -2411,11 +2411,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V, S",
+    class: "Cleric",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "120 feet",
+    description: " A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then. At higher level when you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."
   },
   {
     name: "Gust",
@@ -2427,8 +2427,8 @@ var spell_data = [
     components: "V, S",
     class: "Druid, Sorcerer, Wizard",
     duration: "Instantaneous",
-    range: "30 feet",
-    description: "You seize the air and compel it to create one of the following effects at a point you can see within range: One Medium or smaller creature that you choose must succeed on a Strength saving throw or be pushed up to 5 feet away from you, You create a small blast of air capable of moving one object that is neither held nor carried and that weighs no more than 5 pounds. The object is pushed up to 10 feet away from you. It isn’t pushed with enough force to cause damage, You create a harmless sensory affect using air, such as causing leaves to rustle, wind to slam shutters shut, or your clothing to ripple in a breeze."
+    range: "10 meter",
+    description: "<p>You seize the air and compel it to create one of the following effects at a point you can see within range:</p><ul><li>One Medium or smaller creature that you choose must succeed on a Strength saving throw or be pushed up to 2 meter away from you</li><li>You create a small blast of air capable of moving one object that is neither held nor carried and that weighs no more than 3kg. The object is pushed up to 4 meter away from you. It isn’t pushed with enough force to cause damage</li><li>You create a harmless sensory affect using air, such as causing leaves to rustle, wind to slam shutters shut, or your clothing to ripple in a breeze.</li></ul>"
   },
   {
     name: "Gust of Wind",
@@ -2450,11 +2450,11 @@ var spell_data = [
     casting_time: "1 Bonus",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V",
+    class: "Ranger",
+    duration: "1 Minute",
+    range: "Self",
+    description: " The next time you hit a creature with a ranged weapon attack before the spell ends, this spell creates a rain of thorns that sprouts from your ranged weapon or ammunition. In addition to the normal effect of the attack, the target of the attack and each creature within 5 feet of it must make a Dexterity saving throw. A creature takes 1d10 piercing damage on a failed save, or half as much damage on a successful one. At higher level if you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st (to a maximum of 6d10). "
   },
   {
     name: "Hallow",
@@ -2528,11 +2528,11 @@ var spell_data = [
     casting_time: "1 Bonus",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V",
+    class: "Bard, Cleric, Druid",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "60 feet",
+    description: "A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs. At higher level when you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st."
   },
   {
     name: "Heat Metal",
@@ -2580,11 +2580,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
+    components: "V, S",
+    class: "Bard, Paladin",
     duration: "Instantaneous",
     range: "0 feet",
-    description: "Lorem ipsum"
+    description: "A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell. At higher level when you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
   },
   {
     name: "Hex",
@@ -2658,11 +2658,11 @@ var spell_data = [
     casting_time: "1 Bonus",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
+    components: "V",
+    class: "Ranger",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "90 feet",
+    description: " You choose a creature you can see within range and mystically mark it as your quarry. Until the spell ends, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature. At higher level when you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours."
   },
   {
     name: "Hypnotic Pattern",
@@ -2775,11 +2775,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V, S",
+    class: "Cleric",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "Touch",
+    description: "Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage. At higher level when you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st."
   },
   {
     name: "Insect Plague",
@@ -2961,7 +2961,7 @@ var spell_data = [
     class: "Bard, Cleric, Sorcerer, Wizard",
     duration: "1 Hour",
     range: "Touch",
-    description: "(a firefly or phosphorescent moss) - You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action. If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell."
+    description: "<p>You touch one object that is no larger than 4 meter in any dimension. Until the spell ends, the object sheds bright light in a 7-meter radius and dim light for an additional 7 meter. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action. If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.</p><h4>Required:</h4><p>A firefly or phosphorescent moss</p>"
   },
   {
     name: "Lightning Arrow",
@@ -2999,8 +2999,8 @@ var spell_data = [
     components: "V",
     class: "Sorcerer, Warlock, Wizard",
     duration: "Instantaneous",
-    range: "15 feet",
-    description: "You create a lash of lightning energy that strikes at one creature of your choice that you can see within range. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you. This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+    range: "5 meter",
+    description: "<p>You create a lash of lightning energy that strikes at one creature of your choice that you can see within range. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 2 meter of you.</p><h4>Higher level</h4><p>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>"
   },
   {
     name: "Locate Animals or Plants (Ritual)",
@@ -3090,8 +3090,8 @@ var spell_data = [
     components: "V, S",
     class: "Bard, Sorcerer, Warlock, Wizard",
     duration: "1 Minute",
-    range: "30 feet",
-    description: "A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again. You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it. The hand can’t attack, activate magical items, or carry more than 10 pounds."
+    range: "10 meter",
+    description: "<p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 10 meter away from you or if you cast this spell again. You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 10 meter each time you use it. The hand can’t attack, activate magical items, or carry more than 5kg.</p>"
   },
   {
     name: "Magic Circle",
@@ -3156,7 +3156,7 @@ var spell_data = [
     class: "Druid, Warlock",
     duration: "1 Minute",
     range: "Touch",
-    description: "You touch one to three pebbles and imbue them with magic. You or someone else can make a ranged spell attack with one of the pebbles by throwing it or hurling it with a sling. If thrown, a pebble has a range of 60 feet. If someone else attacks with a pebble, that attacker adds your spellcasting ability modifier, not the attacker’s, to the attack roll. On a hit, the target takes bludgeoning damage equal to 1d6 + your spellcasting ability modifier. Whether the attack hits or misses, the spell then ends on the stone. If you cast this spell again, the spell ends on any pebbles still affected by your previous casting."
+    description: "<p>You touch one to three pebbles and imbue them with magic. You or someone else can make a ranged spell attack with one of the pebbles by throwing it or hurling it with a sling. If thrown, a pebble has a range of 20 meter. If someone else attacks with a pebble, that attacker adds your spellcasting ability modifier, not the attacker’s, to the attack roll. On a hit, the target takes bludgeoning damage equal to 1d6 + your spellcasting ability modifier. Whether the attack hits or misses, the spell then ends on the stone. If you cast this spell again, the spell ends on any pebbles still affected by your previous casting.</p>"
   },
   {
     name: "Magic Weapon",
@@ -3325,7 +3325,7 @@ var spell_data = [
     class: "Bard, Cleric, Druid, Sorcerer, Wizard",
     duration: "Instantaneous",
     range: "Touch",
-    description: "This spell repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn cloack, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage. This spell can physically repair a magic item or construct, but the spell can’t restore magic to such an object."
+    description: "<p>This spell repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn cloack, or a leaking wineskin. As long as the break or tear is no larger than 30 cm in any dimension, you mend it, leaving no trace of the former damage. This spell can physically repair a magic item or construct, but the spell can’t restore magic to such an object.</p>"
   },
   {
     name: "Message",
@@ -3337,8 +3337,8 @@ var spell_data = [
     components: "V, S, M",
     class: "Bard, Sorcerer, Wizard",
     duration: "1 Round",
-    range: "120 feet",
-    description: "You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear. You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn’t have to follow a straight line and can travel freely around corners or through openings."
+    range: "40 meter",
+    description: "<p>You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear. You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 30 cm of stone, 3 cm of common metal, a thin sheet of lead, or 1 meter of wood blocks the spell. The spell doesn’t have to follow a straight line and can travel freely around corners or through openings.</p>"
   },
   {
     name: "Meteor Swarm",
@@ -3376,8 +3376,8 @@ var spell_data = [
     components: "S, M",
     class: "Bard, Sorcerer, Warlock, Wizard",
     duration: "1 Minute",
-    range: "30 feet",
-    description: "You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again. If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else’s voice, a lion’s roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends. If you create an image of an objectsuch as a chair, muddy footprints, or a small chestit must be no larger than a 5-foot cube. The image can’t create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it. If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature."
+    range: "10 meter",
+    description: "<p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again. If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else’s voice, a lion’s roar, a beating of drums, or any other sound you choose.</p><p>The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends. If you create an image of an objectsuch as a chair, muddy footprints, or a small chestit must be no larger than a 2-meter cube. The image can’t create sound, light, smell, or any other sensory effect.</p><p>Physical interaction with the image reveals it to be an illusion, because things can pass through it. If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p>"
   },
   {
     name: "Mirage Arcane",
@@ -3454,8 +3454,8 @@ var spell_data = [
     components: "S",
     class: "Druid, Sorcerer, Wizard",
     duration: "1 Hour",
-    range: "30 feet",
-    description: "You choose a portion of dirt or stone that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways: - If you target an area of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 feet away. This movement doesn’t have enough force to cause damage. - You cause shapes, colors, or both to appear on the dirt or stone, spelling out words, creating images, or shaping patterns. The changes last for 1 hour. - If the dirt or stone you target is on the ground, you cause it to become difficult terrain. Alternatively, you can cause the ground to become normal terrain if it is already difficult terrain. This change lasts for 1 hour. If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+    range: "10 meter",
+    description: "<p>You choose a portion of dirt or stone that you can see within range and that fits within a 2-meter cube. You manipulate it in one of the following ways:</p><ul><li>If you target an area of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 2 meter away. This movement doesn’t have enough force to cause damage.</li><li>You cause shapes, colors, or both to appear on the dirt or stone, spelling out words, creating images, or shaping patterns. The changes last for 1 hour.</li><li>If the dirt or stone you target is on the ground, you cause it to become difficult terrain. Alternatively, you can cause the ground to become normal terrain if it is already difficult terrain. This change lasts for 1 hour. If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</li></ul>"
   },
   {
     name: "Moonbeam",
@@ -3727,8 +3727,8 @@ var spell_data = [
     components: "V, S",
     class: "Druid, Sorcerer, Warlock, Wizard",
     duration: "Instantaneous",
-    range: "10 feet",
-    description: "You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take 1d12 poison damage. This spell’s damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), 17th level (4d12)."
+    range: "4 meter",
+    description: "<p>You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take 1d12 poison damage.</p><h4>Higher level</h4><p>This spell’s damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), 17th level (4d12).</p>"
   },
   {
     name: "Polymorph",
@@ -3805,8 +3805,8 @@ var spell_data = [
     components: "V, S",
     class: "Bard, Sorcerer, Warlock, Wizard",
     duration: "1 Hour",
-    range: "10 feet",
-    description: "This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range: -You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor. - You instantaneously light or snuff out a candle, a torch, or a small campfire. - You instantaneously clean or soil an object no larger than 1 cubic foot. - You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour. - You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour. - You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn. -- If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+    range: "4 meter",
+    description: "<p>This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:</p><ul><li>You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</li><li>You instantaneously light or snuff out a candle, a torch, or a small campfire.</li><li>You instantaneously clean or soil an object no larger than 30 cubic cm.</li></li>You chill, warm, or flavor up to 30 cubic cm of nonliving material for 1 hour.</li></li> You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</li></li>You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.</li></ul><p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p>"
   },
   {
     name: "Primordial Ward",
@@ -3858,7 +3858,7 @@ var spell_data = [
     class: "Druid",
     duration: "10 Minutes",
     range: "Self",
-    description: "A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again. You can also attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 fire damage. This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+    description: "<p>A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 4-meter radius and dim light for an additional 4 meter. The spell ends if you dismiss it as an action or if you cast it again. You can also attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 10 meter of you. Make a ranged spell attack. On a hit, the target takes 1d8 fire damage.</p><h4>Higher level</h4><p>This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>"
   },
   {
     name: "Programmed Illusion",
@@ -4000,8 +4000,8 @@ var spell_data = [
     components: "V, S",
     class: "Sorcerer, Wizard",
     duration: "Instantaneous",
-    range: "60 feet",
-    description: "A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn. The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+    range: "20 meter",
+    description: "<p>A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 4 meter until the start of your next turn.</p><h4>Higher level</h4><p>The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>"
   },
   {
     name: "Ray of Sickness",
@@ -4066,7 +4066,7 @@ var spell_data = [
     class: "Cleric, Druid",
     duration: "1 Minute",
     range: "Touch",
-    description: "You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after the saving throw. The spell then ends."
+    description: "<p>You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after the saving throw. The spell then ends.</p>"
   },
   {
     name: "Resurrection",
@@ -4130,8 +4130,8 @@ var spell_data = [
     components: "V, S",
     class: "Cleric",
     duration: "Instantaneous",
-    range: "60 feet",
-    description: "Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw. The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+    range: "20 meter",
+    description: "<p>Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw.</p><h4>Higher level</h4><p>The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>"
   },
   {
     name: "Sanctuary",
@@ -4179,11 +4179,11 @@ var spell_data = [
     casting_time: "1 Bonus",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
+    components: "V",
+    class: "Paladin",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "Self",
+    description: "The next time you hit a creature with a melee weapon attack during the spell’s duration, your weapon flares with white-hot intensitity, and the attack deals an extra 1d6 fire damage to the target and causes the target to ignite in flames. At the start of each of its turns until the spell ends, the target must make a Constitution saving throw. On a failed save, it takes 1d6 fire damage. On a successful save, the spells ends. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the spell ends. At higher level when you cast this spell using a spell slot of 2nd level or higher, the initial extra damage dealt by the attack increases by 1d6 for each slot"
   },
   {
     name: "See invisibility",
@@ -4244,11 +4244,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "S",
+    class: "Druid, Sorcerer, Wizard",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "10 meter",
+    description: "<p>You choose an area of water that you can see within range and that fits within a 2-meter cube. You manipulate it in one of the following ways:</p><ul><li>You instantaneously move or otherwise change the flow of the water as you direct, up to 2 meter in any direction. This movement doesn’t have enough force to cause damage.</li><li>You cause the water to form into simple shapes and animate at your direction. This change lasts for 1 hour.</li><li>You change the water’s color or opacity. The water must be changed in the same way throughout. This change lasts for 1 hour.</li><li>You freeze the water, provided that there are no creatures in it. The water unfreezes in 1 hour.</li></ul><p>If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p>"
   },
   {
     name: "Shapechange",
@@ -4283,11 +4283,11 @@ var spell_data = [
     casting_time: "Special",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S",
+    class: "Sorcerer, Wizard",
+    duration: "1 Round",
+    range: "Self",
+    description: "Reaction trigger: You are hit by an attack or targeted by the magic missile spell. An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile."
   },
   {
     name: "Shield of Faith",
@@ -4296,11 +4296,11 @@ var spell_data = [
     casting_time: "1 Bonus",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Cleric, Paladin",
+    duration: "10 Minutes",
+    range: "60 feet",
+    description: "A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration."
   },
   {
     name: "Shillelagh",
@@ -4309,11 +4309,11 @@ var spell_data = [
     casting_time: "1 Bonus",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Druid",
+    duration: "1 Minute",
+    range: "Touch",
+    description: "<p>The wood of a club or quarterstaff you are holding is imbued with nature’s power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon’s damage die becomes a d8. The weapon also becomes magical, if it isn’t already. The spell ends if you cast it again or if you let go of the weapon.</p>"
   },
   {
     name: "Shocking Grasp",
@@ -4322,11 +4322,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V, S",
+    class: "Sorcerer, Wizard",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "Touch",
+    description: "<p>Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can’t take reactions until the start of its next turn.</p><h4>Higher level</h4><p>At higher level the spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>"
   },
   {
     name: "Silence (Ritual)",
@@ -4348,11 +4348,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Bard, Sorcerer, Wizard",
+    duration: "10 Minutes",
+    range: "60 feet",
+    description: "You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn’t accompanied by sound, smell, or other sensory effects. You can use your action to cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image."
   },
   {
     name: "Simulacrum",
@@ -4387,11 +4387,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: " Bard, Sorcerer, Wizard",
+    duration: "1 Minute",
+    range: "90 feet",
+    description: " This spell sends creatures into a magical slumber. Roll 5d8, the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures). Starting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature’s hit points from the total before moving on to the creature with the next lowest hit points. A creature’s hit points must be equal to or less than the remaining total for that creature to be affected. Undead and creatures immune to being charmed aren’t affected by this spell. At higher level when you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st."
   },
   {
     name: "Sleet Storm",
@@ -4439,11 +4439,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V, S",
+    class: "Cleric",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "Touch",
+    description: "<p>You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs.</p>"
   },
   {
     name: "Speak with Animals (Ritual)",
@@ -4452,11 +4452,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "Yes",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V, S",
+    class: "Bard, Druid, Ranger",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "Self",
+    description: "You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the DM’s discretion."
   },
   {
     name: "Speak with Dead",
@@ -4673,11 +4673,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V",
+    class: "Sorcerer, Warlock, Wizard",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "2 meter",
+    description: "<p>You create a momentary circle of spectral blades that sweep around you. Each creature within range, other than you, must succeed on a Dexterity saving throw or take 1d6 force damage.</p><h4>Higher level</h4><p>At higher level this spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>"
   },
   {
     name: "Symbol",
@@ -4699,11 +4699,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Bard, Wizard",
+    duration: "1 Minute",
+    range: "30 feet",
+    description: "A creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn’t affected. At the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target has advantage on the saving throw ifit’s triggered by damage. On a success, the spell ends."
   },
   {
     name: "Telekinesis",
@@ -4764,11 +4764,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "Yes",
     concentration: "-",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Wizard",
+    duration: "1 Hour",
+    range: "30 feet",
+    description: "This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground. The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can more across uneven terrain, up or down stairs, slopes and the like, but it can’t cross an elevation change of 10 feet or more. For example, the disk can’t move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom. If you move more than 100 feet from the disk (typically because it can’t move around an obstacle to follow you), the spell ends."
   },
   {
     name: "Thaumaturgy",
@@ -4777,11 +4777,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V",
+    class: "Cleric",
+    duration: "1 Minute",
+    range: "10 meter",
+    description: "<p>You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical effects within range:</p><ul><li>Your voice booms up to three times as loud as normal for 1 minute.</li><li>You cause flames to flicker, brighten, dim, or change color for 1 minute.</li><li>You cause harmless tremors in the ground for 1 minute.</li><li>You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.</li><li>You instantaneously cause an unlocked door or window to fly open or slam shut.</li><li>You alter the appearance of your eyes for 1 minute.</li></ul><p>If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.</p>"
   },
   {
     name: "Thorn Whip",
@@ -4790,11 +4790,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V, S, M",
+    class: "Druid",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "10 meter",
+    description: "<p>You create a long, vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. If the attack hits, the creature takes 1d6 piercing damage, and if the creature is Large or smaller, you pull the creature up to 4 meter closer to you.</p><h4>Higher level</h4><p>At higher level this spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>"
   },
   {
     name: "Thunderclap",
@@ -4803,11 +4803,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "S",
+    class: "Bard, Sorcerer, Druid, Warlock, Wizard",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "2 meter",
+    description: "<p>You create a burst of thunderous sound, which can be heard 34 meter away. Each creature other than you within 2 meter of you must make a Constitution saving throw. On a failed save, the creature takes 1d6 thunder damage.</p><h4>Higher level</h4><p>The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>"
   },
   {
     name: "Thunderous Smite",
@@ -4816,11 +4816,11 @@ var spell_data = [
     casting_time: "1 Bonus",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V",
+    class: "Paladin",
+    duration: "1 Minute",
+    range: "Self",
+    description: "The first time you hit with a melee weapon attack during this spell’s duration, your weapon rings with thunder that is audible within 300 feet of you, and the attack deals an extra 2d6 thunder damage to the target. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and knocked prone."
   },
   {
     name: "Thunderwave",
@@ -4829,11 +4829,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V, S",
+    class: "Bard, Druid, Sorcerer, Wizard",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "Self",
+    description: " A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn’t pushed. In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell’s effect, and the spell emits a thunderous boom audible out to 300 feet. At higher level when you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st."
   },
   {
     name: "Tidal Wave",
@@ -4972,11 +4972,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "S",
+    class: "Bard, Sorcerer, Warlock, Wizard",
+    duration: "1 Minute",
+    range: "10 meter",
+    description: "<p>You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target’s defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn’t ended.</p>"
   },
   {
     name: "Tsunami",
@@ -4998,11 +4998,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "Yes",
     concentration: "-",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
+    components: "V, S, M",
+    class: "Bard, Warlock, Wizard",
+    duration: "1 Hour",
     range: "0 feet",
-    description: "Lorem ipsum"
+    description: "This spell creates an invisible, mindless, shapeless force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 hit point, and a Strength of 2, and it can’t attack. If it drops to 0 hit points, the spell ends. Once on each of your turns as a bonus action, you can mentally command the servant to move up to 15 feet and inteact with an object. The servant can perform simple tasks that a human servant could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring wine. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command. If you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends."
   },
   {
     name: "Vampiric Touch",
@@ -5024,11 +5024,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "-",
-    components: "-",
-    class: "-",
+    components: "V",
+    class: "Bard",
     duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    range: "20 meter",
+    description: "<p>You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (thought it need not understand you), it must succeed on a Wisdom saving throw or take 1d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.</p><h4>Higher level</h4><p>At higher level this spell’s damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).</p>"
   },
   {
     name: "Vitriolic Sphere",
@@ -5284,11 +5284,11 @@ var spell_data = [
     casting_time: "1 Action",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V, S, M",
+    class: "Sorcerer, Warlock, Wizard",
+    duration: "1 Minute",
+    range: "30 feet",
+    description: " A beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes 1d12 lightning damage, and on each of your turns for the duration, you can use your action to deal 1d12 lightning damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell’s range or if it has total cover from you. At higher level when you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by 1d12 for each slot level above 1st."
   },
   {
     name: "Word of Recall",
@@ -5310,11 +5310,11 @@ var spell_data = [
     casting_time: "1 Bonus",
     ritual: "-",
     concentration: "Yes",
-    components: "-",
-    class: "-",
-    duration: "Instantaneous",
-    range: "0 feet",
-    description: "Lorem ipsum"
+    components: "V",
+    class: "Paladin",
+    duration: "1 Minute",
+    range: "Self",
+    description: "The next time you hit with a melee weapon attack during this spell’s duration, your attack deals an extra 1d6 psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be frightened of you until the spell ends. As an action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell."
   },
   {
     name: "Zone of Truth",
