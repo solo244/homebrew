@@ -88,7 +88,7 @@ var spells_0 = [
     class: "Bard, Sorcerer, Wizard",
     duration: "Concentration, up to 1 minute",
     range: "40 meter",
-    description: "<p>You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 4-meter radius. As a bonus action on your turn, you can move the lights up to 20 meter to a new spot within range. A light must be within 7 meter of another light created by this spell, and a light winks out if it exceeds the spell’s range.</p><h4>Required</h4></p>A bit of phosphorus or wychwood, or a glowworm</p>"
+    description: "<p>You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 4-meter radius. As a bonus action on your turn, you can move the lights up to 20 meter to a new spot within range. A light must be within 7 meter of another light created by this spell, and a light winks out if it exceeds the spell’s range.</p><h4>Required</h4><p>A bit of phosphorus or wychwood, or a glowworm</p>"
   },
   {
     name: "Druidcraft",

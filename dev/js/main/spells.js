@@ -34,7 +34,7 @@
         <div class="c6">' + spell_data[i].components + '</div>\
         <div class="c7">' + spell_data[i].concentration + '</div>\
         <div class="classes"><strong>Class:</strong> ' + spell_data[i].class + '</div>\
-        <div class="description">' + spell_data[i].description + '</div>\
+        <div class="description"><strong>Duration:</strong> ' + spell_data[i].duration + '<br>' + spell_data[i].description + '</div>\
       </div>');
     }
 
