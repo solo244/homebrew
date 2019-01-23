@@ -1,5 +1,4 @@
 var spell_data = $.merge( $.merge( [], spells_0 ), spells_1 );
-console.log(spell_data);
 
 /*var spell_data = [
   {
