@@ -63,5 +63,70 @@ var spells_8 = [
     duration: "Instantaneous",
     range: "Touch",
     description: "(a diamond worth at least 1,000 gp and at least 1 cubic inch of flesh of the creature that is to be cloned, which the spell consumes, and a vessel worth at least 2,000 gp that has a sealable lid and is large enough to hold a Medium creature) - This spell grows an inert duplicate of a living creature as a safeguard against death. This clone forms inside a sealed vessel and grows to full size and maturity after 120 days; you can also choose to have the clone be a younger version of the same creature. It remains inert and endures indefinitely, as long as its vessel remains undisturbed. At any time after the clone matures, if the original creature dies, its soul transfers to the clone, provided that the soul is free and willing to return. The clone is physically identical to the original and has the same personality, memories, and abilities, but none of the original’s equipment. The original creature’s physical remains, if they still exist, becom e inert and can’t thereafter be restored to life, since the creature’s soul is elsewhere."
-  }
+  },
+  {
+    name: "Control Weather",
+    level: 8,
+    school: "Transmutation",
+    casting_time: "10 Minutes",
+    ritual: "-",
+    concentration: "Yes",
+    components: "V, S, M",
+    class: "Cleric, Druid, Wizard",
+    duration: "Concentration, up to 8 hours",
+    range: "Self (5-mile radius)",
+    description: "You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell. Moving to a place where you don’t have a clear path to the sky ends the spell early. When you cast the spell, you change the current weather conditions, which are determined by the DM based on the climate and season. You can change precipitation, temperature, and wind. It takes 1d4 x 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal. When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction."
+  },
+  {
+    name: "Demiplane",
+    level: 8,
+    school: "Conjuration",
+    casting_time: "1 Action",
+    ritual: "-",
+    concentration: "-",
+    components: "S",
+    class: "Warlock, Wizard",
+    duration: "1 Hour",
+    range: "60 feet",
+    description: "You create a shadowy door on a flat solid surface that you can see within range. The door is large enough to allow Medium creatures to pass through unhindered. When opened, the door leads to a demiplane that appears to be an empty room 30 feet in each dimension, made of wood or stone. When the spell ends, the door disappears, and any creatures or objects inside the demiplane remain trapped there, as the door also disappears from the other side. Each time you cast this spell, you can create a new demiplane, or have the shadowy door connect to a demiplane you created with a previous casting of this spell. Additionally, if you know the nature and contents of a demiplane created by a casting of this spell by another creature, you can have the shadowy door connect to its demiplane instead."
+  },
+  {
+    name: "Dominate Monster",
+    level: 8,
+    school: "Enchantment",
+    casting_time: "1 Action",
+    ritual: "-",
+    concentration: "Yes",
+    components: "V, S",
+    class: "Bard, Sorcerer, Warlock, Wizard",
+    duration: "Concentration, up to 1 hour",
+    range: "60 feet",
+    description: "You attempt to beguile a creature that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw. While the creature is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as 'Attack that creature', 'Run over there', or 'Fetch that object'. If the creature completes the order and doesn’t receive further direction from you, it defends and preserves itself to the best of its ability. You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn’t do anything that you don’t allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends. When you cast this spell with a 9th-level spell slot, the duration is concentration, up to 8 hours."
+  },
+  {
+    name: "Earthquake",
+    level: 8,
+    school: "Evocation",
+    casting_time: "1 Action",
+    ritual: "-",
+    concentration: "Yes",
+    components: "V, S, M",
+    class: "Cleric, Druid, Sorcerer",
+    duration: "1 Minute",
+    range: "500 feet",
+    description: "You create a seismic disturbance at a point on the ground that you can see within range. For the duration, an intense tremor rips through the ground in a 100-foot- radius circle centered on that point and shakes creatures and structures in contact with the ground in that area. The ground in the area becomes difficult terrain. Each creature on the ground that is concentrating must make a Constitution saving throw. On a failed save, the creature’s concentration is broken. When you cast this spell and at the end of each turn you spend concentrating on it, each creature on the ground in the area must make a Dexterity saving throw. On a failed save, the creature is knocked prone. This spell can have additional effects depending on the terrain in the area, as determined by the DM. - Fissures: Fissures open throughout the spell’s area at the start of your next turn after you cast the spell. A total of 1d6 such fissures open in locations chosen by the DM. Each is 1d10 x 10 feet deep, 10 feet wide, and extends from one edge of the spell’s area to the opposite side. A creature standing on a spot where a fissure opens must succeed on a Dexterity saving throw or fall in. A creature that successfully saves moves with the fissure’s edge as it opens. A fissure that opens beneath a structure causes it to automatically collapse (see below). - Structures: The tremor deals 50 bludgeoning damage to any structure in contact with the ground in the area when you cast the spell and at the start of each of your turns until the spell ends. If a structure drops to 0 hit points, it collapses and potentially damages nearby creatures. A creature within half the distance of a structure’s height must make a Dexterity saving throw. On a failed save, the creature takes 5d6 bludgeoning damage, is knocked prone, and is buried in the rubble, requiring a DC 20 Strength (Athletics) check as an action to escape. The DM can adjust the DC higher or lower, depending on the nature of the rubble. On a successful save, the creature takes half as much damage and doesn’t fall prone or become buried."
+  },
+  {
+    name: "Feeblemind",
+    level: 8,
+    school: "Enchantment",
+    casting_time: "1 Action",
+    ritual: "-",
+    concentration: "-",
+    components: "V, S, M",
+    class: "Bard, Druid, Warlock, Wizard",
+    duration: "Instantaneous",
+    range: "150 feet",
+    description: "(a handful of clay, crystal, glass, or mineral spheres) - You blast the mind of a creature that you can see within range, attempting to shatter its intellect and personality. The target takes 4d6 psychic damage and must make an Intelligence saving throw. On a failed save, the creature’s Intelligence and Charisma scores become 1. The creature can’t cast spells, activate magic items, understand language, or communicate in any intelligible way. The creature can, however, identify its friends, follow them, and even protect them. At the end of every 30 days, the creature can repeat its saving throw against this spell. If it succeeds on its saving throw, the spell ends. The spell can also be ended by greater restoration, heal or wish."
+  },
 ];

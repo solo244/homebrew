@@ -1,3 +1,67 @@
 var spells_7 = [
-
+  {
+    name: "Conjure Celestial",
+    level: 7,
+    school: "Conjuration",
+    casting_time: "1 Minute",
+    ritual: "-",
+    concentration: "Yes",
+    components: "V, S",
+    class: "Cleric",
+    duration: "1 Hour",
+    range: "90 feet",
+    description: "You summon a celestial of challenge rating 4 or lower, which appears in an unoccupied space that you can see within range. The celestial disappears when it drops to 0 hit points or when the spell ends. The celestial is friendly to you and your companions for the duration. Roll initiative for the celestial, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you), as long as they don’t violate its alignment. If you don’t issue any commands to the celestial, it defends itself from hostile creatures but otherwise takes no actions. The DM has the celestial’s statistics. When you cast this spell using a 9th-level spell slot, you summon a celestial of challenge rating 5 or lower."
+  },
+  {
+    name: "Delayed Blast Fireball",
+    level: 7,
+    school: "Evocation",
+    casting_time: "1 Action",
+    ritual: "-",
+    concentration: "Yes",
+    components: "V, S, M",
+    class: "Sorcerer, Wizard",
+    duration: "Concentration, up to 1 minute",
+    range: "150 feet",
+    description: "(a tiny ball of bat guano and sulfur) - A beam of yellow light flashes from your pointing finger, then condenses to linger at a chosen point within range as a glowing bead for the duration. When the spell ends, either because your concentration is broken or because you decide to end it, the bead blossoms with a low roar into an explosion of flame that spreads around corners. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes fire damage equal to the total accumulated damage on a failed save, or half as much damage on a successful one. The spell’s base damage is 12d6. If at the end of your turn the bead has not yet detonated, the damage increases by 1d6. If the glowing bead is touched before the interval has expired, the creature touching it must make a Dexterity saving throw. On a failed save, the spell ends immediately, causing the bead to erupt in flame. On a successful save, the creature can throw the bead up to 40 feet. When it strikes a creature or a solid object, the spell ends, and the bead explodes. The fire damages objects in the area and ignites flammable objects that aren’t being worn or carried. When you cast this spell using a spell slot of 8th level or higher, the base damage increases by 1d6 for each slot level above 7th."
+  },
+  {
+    name: "Divine Word",
+    level: 7,
+    school: "Evocation",
+    casting_time: "1 Bonus",
+    ritual: "-",
+    concentration: "-",
+    components: "V",
+    class: "Cleric",
+    duration: "Instantaneous",
+    range: "30 feet",
+    description: "You utter a divine word, imbued with the power that shaped the world at the dawn of creation. Choose any number of creatures you can see within range. Each creature that can hear you must make a Charisma saving throw. On a failed save, a creature suffers an effect based on its current hit points: - 50 hit points or fewer: deafened for 1 minute - 40 hit points or fewer: deafened and blinded for 10 minutes - 30 hit points or fewer: blinded, deafened, and stunned for 1 hour - 20 hit points or fewer: killed instantly. -- Regardless of its current hit points, a celestial, an elemental, a fey, or a fiend that fails its save is forced back to its plane of origin (if it isn’t there already) and can’t return to your current plane for 24 hours by any means short of a wish spell."
+  },
+  {
+    name: "Etherealness",
+    level: 7,
+    school: "Transmutation",
+    casting_time: "1 Action",
+    ritual: "-",
+    concentration: "-",
+    components: "V, S",
+    class: "Bard, Cleric, Sorcerer, Warlock, Wizard",
+    duration: "Up to 8 hours",
+    range: "Self",
+    description: "You step into the border regions of the Ethereal Plane, in the area where it overlaps with your current plane. You remain in the Border Ethereal for the duration or until you use your action to dismiss the spell. During this time, you can move in any direction. If you move up or down, every foot of movement costs an extra foot. You can see and hear the plan you originated from, but everything there looks gray, and you can’t see anything more than 60 feet away. While on the Ethereal Plane, you can only affect and be affected by other creatures on that plane. Creatures that aren’t on the Ethereal Plance can’t perceive you and can’t interact with you, unless a special ability or magic has given them the ability to do so. You ignore all objects and effects that aren’t on the Ethereal Plane, allowing you to move through objects you perceive on the plan you originated from. When the spell ends, you immediately return to the plane you originiated from in teh spot you currently occupy. If you occupy the same spot as a solid object or creature when this happens, you are imediately shunted to the neares unoccupied space that you can occupy and take force damage equal to twice the number of feet you are moved. This spell has no effect if you cast it while you are on the Ethereal Plane or a plane that doesn’t border it, such as one of the Outer Planes. When you cast this spell using a spell slot of 8th level or higher, you can target up to three willing creatures (including you) for each slot level above 7th. The creatures must be within 10 feet of you when you cast the spell."
+  },
+  {
+    name: "Finger of Death",
+    level: 7,
+    school: "Necromancy",
+    casting_time: "1 Action",
+    ritual: "-",
+    concentration: "-",
+    components: "V, S",
+    class: "Sorcerer, Warlock, Wizard",
+    duration: "Instantaneous",
+    range: "60 feet",
+    description: "You send negative energy coursing through a creature that you can see within range, causing it searing pain.The target must make a Constitution saving throw. It takes 7d8 + 30 necrotic damage on a failed save, or half as much damage on a successful one.A humanoid killed by this spell rises at the start of your next turn as a zombie that is permanently under your command, following your verbal orders to the best of its ability."
+  },
 ];
