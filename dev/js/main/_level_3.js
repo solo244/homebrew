@@ -246,4 +246,43 @@ var spells_3 = [
     range: "Touch",
     description: "(a pinch of graveyard dirt) - You touch a willing creature and put it into a cataleptic state that is indistinguishable from death. For the spell’s duration, or until you use an action to touch the target and dismiss the spell, the target appears dead to all outward inspection and to spells used to determine the target’s status. The target is blinded and incapacitated, and its speed drops to 0. The target has resistance to all damage except psychic damage. If the target is diseased or poisoned when you cast the spell, or becomes diseased or poisoned while under the spell’s effect, the disease and poison have no effect until the spell ends."
   },
+  {
+    name: "Fireball",
+    level: 3,
+    school: "Evocation",
+    casting_time: "1 Action",
+    ritual: "-",
+    concentration: "-",
+    components: "V, S, M",
+    class: "Sorcerer, Wizard",
+    duration: "Instantaneous",
+    range: "150 feet",
+    description: "(a tiny ball of bat guano and sulfur) - A bright streak flashes from your pointing finger to a point you choose within range then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot radius must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd."
+  },
+  {
+    name: "Flame Arrows",
+    level: 3,
+    school: "Transmutation",
+    casting_time: "1 Action",
+    ritual: "-",
+    concentration: "Yes",
+    components: "V, S",
+    class: "Druid, Ranger, Sorcerer, Wizard",
+    duration: "Concentration, up to 1 hour",
+    range: "Touch",
+    description: "You touch a quiver containing arrows or bolts. When a target is hit by a ranged weapon attack using a piece of ammunition drawn from the quiver, the target takes an extra 1d6 fire damage. The spell’s magic ends on the piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver. At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd."
+  },
+  {
+    name: "Fly",
+    level: 3,
+    school: "Transmutation",
+    casting_time: "1 Action",
+    ritual: "-",
+    concentration: "Yes",
+    components: "V, S, M",
+    class: "Sorcerer, Warlock, Wizard",
+    duration: "Concentration, up to 10 minutes",
+    range: "Touch",
+    description: "(a wing feather from any bird) - You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall. When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
+  }
 ];
