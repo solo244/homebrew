@@ -245,5 +245,44 @@ var spells_4 = [
     duration: "Instantaneous",
     range: "0 feet",
     description: "Lorem ipsum"
+  },
+  {
+    name: "Giant Insect",
+    level: 4,
+    school: "Transmutation",
+    casting_time: "1 Action",
+    ritual: "-",
+    concentration: "Yes",
+    components: "-",
+    class: "-",
+    duration: "Instantaneous",
+    range: "0 feet",
+    description: "Lorem ipsum"
+  },
+  {
+    name: "Grasping Vine",
+    level: 4,
+    school: "Conjuration",
+    casting_time: "1 Bonus",
+    ritual: "-",
+    concentration: "Yes",
+    components: "-",
+    class: "-",
+    duration: "Instantaneous",
+    range: "0 feet",
+    description: "Lorem ipsum"
+  },
+  {
+    name: "Greater Invisibility",
+    level: 4,
+    school: "Illusion",
+    casting_time: "1 Action",
+    ritual: "-",
+    concentration: "Yes",
+    components: "V, S",
+    class: "Bard, Sorcerer, Wizard",
+    duration: "Concentration, up to 1 minute",
+    range: "Touch",
+    description: "You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target’s person."
   }
 ];

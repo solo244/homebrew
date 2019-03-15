@@ -363,4 +363,17 @@ var spells_2 = [
     range: "60 feet",
     description: "(a bit of tallow, a pinch of brimstone, and a dusting of powdered iron) - A 5-foot-diameter sphere of fire appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one. As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere’s damage, and the sphere stops moving this turn. When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd."
   },
+  {
+    name: "Gentle Repose (Ritual)",
+    level: 2,
+    school: "Necromancy",
+    casting_time: "1 Action",
+    ritual: "Yes",
+    concentration: "-",
+    components: "V, S, M",
+    class: "Cleric, Wizard",
+    duration: "10 Days",
+    range: "Touch",
+    description: "(a pinch of salt and one copper piece placed on each of the corpse’s eyes, which must remain there for the duration) - You touch a corpse or other remains. For the duration, the target is protected from decay and can’t become undead. The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don’t count against the time limit of spells such as raise dead."
+  },
 ];
